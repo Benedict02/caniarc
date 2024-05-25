@@ -1,7 +1,7 @@
 
 # Colossal Notebook
 
-In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT at creating divine notes)
+In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT in creating divine notes)
 
 
 ## Authors
