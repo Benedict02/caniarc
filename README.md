@@ -1,8 +1,6 @@
-
 # Colossal Notebook
 
 In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT in creating divine notes)
-
 
 ## Authors
 
@@ -21,8 +19,8 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 #### How do I collaborate?
 
-* Webdev: Make sure that you are capable of `filling in one or more role` in the tech stack(look below).
-* Materials: Just `get good grades & take notes`, submit it to Gabrio. I'll include your name on the **"special thanks"** page
+- Webdev: Make sure that you are capable of `filling in one or more role` in the tech stack(look below).
+- Materials: Just `get good grades & take notes`, submit it to Gabrio. I'll include your name on the **"special thanks"** page
 
 ## Features
 
@@ -30,18 +28,16 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 ## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Raisin Black | #30292F |
-| English Violet   | #413F54 |
-| Oxford Blue | #002147 |
-| YinMin Blue | #355691 |
-
+| Color          | Hex     |
+| -------------- | ------- |
+| Raisin Black   | #30292F |
+| English Violet | #413F54 |
+| Oxford Blue    | #002147 |
+| YinMin Blue    | #355691 |
 
 ## Feedback
 
 If you have any feedback, contact benedicthalim1@gmail.com
-
 
 ## Tech Stack
 
@@ -49,8 +45,7 @@ If you have any feedback, contact benedicthalim1@gmail.com
 
 **Server:** Node, Express
 
-**DB:** Postgresql
-
+**DB:** MySQL
 
 ## 🔗 Links
 
@@ -59,7 +54,6 @@ If you have any feedback, contact benedicthalim1@gmail.com
 If you find this useful, help fund this project!
 
 [![portfolio](https://img.shields.io/static/v1?message=Ko-fi&logo=ko-fi&label=Buy%20me%20a&color=F16061&logoColor=normal&labelColor=FFCC99&style=for-the-badge)](https://ko-fi.com/benedict02)
-
 
 ## Special Thanks
 
