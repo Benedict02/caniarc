@@ -57,4 +57,4 @@ If you find this useful, help fund this project!
 
 ## Special Thanks
 
-- [@44120N](https://www.github.com/44120N) : Mentor + Materials
+- [@44120N](https://www.github.com/44120N) : Materials + Design Reference

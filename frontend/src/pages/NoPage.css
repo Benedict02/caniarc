@@ -1,0 +1,38 @@
+.broken {
+  background-image: url("/ethan.png");
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.broken__filter {
+  background-color: rgba(0, 0, 0, 0.833);
+  height: 100vh;
+}
+
+.error__container {
+  color: var(--first-color);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/neraka.gif");
+  background-repeat: repeat-x;
+  flex-direction: column;
+}
+
+.error__msg--title {
+  font-family: monospace;
+  color: var(--first-color);
+  font-size: 5em;
+  margin: 3vh 0 3vh 0;
+}
+
+.error__msg--detail {
+  color: greenyellow;
+  font-size: 1.5em;
+}
+
+.error__msg--detail ul {
+  list-style-type: disc;
+}
