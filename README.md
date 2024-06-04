@@ -24,16 +24,16 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 ## Features
 
-- Null
+- Null (Not yet)
 
 ## Color Reference
 
-| Color          | Hex     |
-| -------------- | ------- |
-| Raisin Black   | #30292F |
-| English Violet | #413F54 |
-| Oxford Blue    | #002147 |
-| YinMin Blue    | #355691 |
+| Color            | Hex     |
+| ---------------- | ------- |
+| White Heat       | #fefaf6 |
+| Lambskin         | #eadbc8 |
+| Curious Chipmunk | #dac0a3 |
+| Fibonacci Blue   | #102c57 |
 
 ## Feedback
 
@@ -41,11 +41,7 @@ If you have any feedback, contact benedicthalim1@gmail.com
 
 ## Tech Stack
 
-**Client:** React, MaterialUI, Axios
-
-**Server:** Node, Express
-
-**DB:** MySQL
+**ReactJS, MaterialUI, CSS**
 
 ## 🔗 Links
 
