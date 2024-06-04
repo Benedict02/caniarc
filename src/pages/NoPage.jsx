@@ -9,13 +9,13 @@ const NoPage = () => {
             <div className="error__msg--title">404 - Page Not Found</div>
             <div className="error__msg--detail">
               <ul>
-                <p>ESOD(Ethan Screen Of Death) might be caused by:</p>
+                <p>Ur page is lost... might be caused by:</p>
                 <li>
                   You <u>misspelled</u> the web url.
                 </li>
                 <li>
-                  You <u>refreshed</u> the page & caused a .httaccess error (im
-                  figuring it out how to fix this)
+                  You <u>refreshed</u> the page & caused a .httaccess error (due
+                  to github hosting)
                 </li>
                 <p>Solution: Go re-enter the previous page using navbar</p>
               </ul>

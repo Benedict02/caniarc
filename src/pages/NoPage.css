@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/neraka.gif");
+  background: url("/fire.gif");
   background-repeat: repeat-x;
   flex-direction: column;
 }

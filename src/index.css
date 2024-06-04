@@ -1,22 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
 @font-face {
-  font-family: "Wavehaus";
-  src: url("/src/assets/graham-paterson-wavehaus-typeface/Wavehaus-66Book.otf")
-    format("opentype");
+  font-family: Maison Neue;
+  src: url(MaisonNeue.otf) format("opentype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Wavehaus";
-  src: url("/src/assets/graham-paterson-wavehaus-typeface/Wavehaus-128Bold.otf")
-    format("opentype");
+  font-family: Maison Neue;
+  src: url(MaisonNeue.otf) format("opentype");
   font-weight: 900;
-}
-
-@font-face {
-  font-family: "Bradley Hand";
-  src: url("/src/assets/Bradley-Hand-Font/BRADHI.ttf") format("truetype");
 }
 
 * {
@@ -49,7 +42,7 @@
   --dark-color: #102c57;
 
   /* Font */
-  --body-font: "Wavehaus", sans-serif;
+  --body-font: "Masion Neue", sans-serif;
   --title-font: "Montserrat", sans-serif;
   --normal-font-size: 0.92rem;
   --big-font-size: 1.8em;
@@ -69,3 +62,6 @@
 }
 
 /* Mother */
+body {
+  font-family: "Maison Neue", sans-serif;
+}
