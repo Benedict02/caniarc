@@ -1,3 +1,4 @@
+import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied";
 import "./Navbar.css";
 import { Link, Outlet } from "react-router-dom";
 import { useEffect, useRef } from "react";
@@ -36,7 +37,8 @@ const Navbar = () => {
           <nav className="nav container">
             <div className="nav__data">
               <Link to="/" className="nav__logo">
-                <p>CCNC</p>
+                <SentimentDissatisfiedIcon />
+                Colossal Notebook
               </Link>
               <div className="nav__toggle" id="nav-toggle" ref={burgerRef}>
                 <i className="ri-menu-line nav__burger"></i>
@@ -46,13 +48,21 @@ const Navbar = () => {
             <div className="nav__menu" id="nav-menu" ref={menuRef}>
               <ul className="nav__list">
                 <li>
+                  {/* TODO: to="/" might cause some issues later on in github hosting */}
                   <Link to="/" className="nav__link" translate="no">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="nav__link" translate="no">
+                  {/* TODO: to="/" might cause some issues later on in github hosting */}
+                  <Link to="/about" className="nav__link" translate="no">
                     About
+                  </Link>
+                </li>
+                <li>
+                  {/* TODO: to="/" might cause some issues later on in github hosting */}
+                  <Link to="/hierarchy" className="nav__link" translate="no">
+                    Hierarchy
                   </Link>
                 </li>
                 <li className="dropdown__item">
@@ -62,11 +72,13 @@ const Navbar = () => {
                   </div>
                   <ul className="dropdown__menu">
                     <li>
+                      {/* TODO: to="/" might cause some issues later on in github hosting */}
                       <Link to="/triangle" className="nav__link--dropdown">
                         Elementary School
                       </Link>
                     </li>
                     <li>
+                      {/* TODO: to="/" might cause some issues later on in github hosting */}
                       <Link
                         to="/trigonometry"
                         className="nav__link--dropdown"
@@ -76,35 +88,13 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
+                      {/* TODO: to="/" might cause some issues later on in github hosting */}
                       <Link
                         to="/trigonometry"
                         className="nav__link--dropdown"
                         translate="no"
                       >
                         Senior High Scool
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown__item">
-                  <div className="nav__link">
-                    Blog
-                    <i className="dropdown__arrow ri-arrow-drop-down-line"></i>
-                  </div>
-                  <ul className="dropdown__menu">
-                    <li>
-                      <Link to="/square" className="nav__link--dropdown">
-                        Maths
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="rectangle" className="nav__link--dropdown">
-                        Physics
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/rhombus" className="nav__link--dropdown">
-                        Informatics
                       </Link>
                     </li>
                   </ul>

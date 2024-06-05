@@ -63,5 +63,14 @@
 
 /* Mother */
 body {
+  background-color: var(--first-color);
   font-family: "Maison Neue", sans-serif;
+}
+
+.torso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
