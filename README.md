@@ -11,7 +11,7 @@ In essence, this is a repository containing school materials & notes, in collabo
 
 #### What is the purpose of this project?
 
-For us(the creators), this project is a means to sharpen our knowledge and abilities, especially in programming & academics.
+For us(the creators), this project is a means to sharpen our knowledge and abilities, especially in programming & academics. Also this project helps Benedict land a job as a programmer by building his github portfolio.
 
 For users, this project is used to compound notes, summaries and practice questions from the internet and/or school for your convenience in obtaining magna cumlaude or above(depends on your dedication and hard work).
 
@@ -47,10 +47,10 @@ If you have any feedback, contact benedicthalim1@gmail.com
 
 [Insert link to github pages here]
 
-If you find this useful, help fund this project!
+If you find this useful, help fund this project(give me money)!
 
 [![portfolio](https://img.shields.io/static/v1?message=Ko-fi&logo=ko-fi&label=Buy%20me%20a&color=F16061&logoColor=normal&labelColor=FFCC99&style=for-the-badge)](https://ko-fi.com/benedict02)
 
 ## Special Thanks
 
-- [@44120N](https://www.github.com/44120N) : Materials + Design Reference
+- [@44120N](https://www.github.com/44120N) : Mentor + Materials + Design Reference
