@@ -13,7 +13,6 @@ const Home = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            background: "cyan",
             minHeight: "50vh",
           }}
         >
