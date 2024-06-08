@@ -1,0 +1,21 @@
+.title__header {
+  font-weight: 600 !important;
+  background: rgb(73, 94, 255);
+  background: rgb(73, 94, 255);
+  background: linear-gradient(
+    86deg,
+    rgba(73, 94, 255, 1) 9%,
+    rgba(145, 70, 196, 1) 30%,
+    rgba(189, 44, 108, 1) 61%,
+    rgba(168, 38, 38, 1) 79%,
+    rgba(172, 20, 51, 1) 91%,
+    rgba(111, 36, 25, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title__marquee {
+  background-color: #ffe896;
+  border-bottom: 5px dotted;
+}

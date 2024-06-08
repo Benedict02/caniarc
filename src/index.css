@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+@font-face {
+  font-family: Maison Neue;
+  src: url(MaisonNeue.otf) format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Maison Neue;
+  src: url(MaisonNeue.otf) format("opentype");
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid black;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+:root {
+  --header-height: 3.7rem;
+
+  /* Color */
+  --first-color: #fefaf6;
+  --second-color: #eadbc8;
+  --third-color: #dac0a3;
+  --dark-color: #102c57;
+
+  /* Font */
+  --body-font: "Masion Neue", sans-serif;
+  --title-font: "Montserrat", sans-serif;
+  --normal-font-size: 0.92rem;
+  --big-font-size: 1.8em;
+  --large-font-size: 2.5rem;
+  --font-regular: 500;
+  --font-semi-bold: 600;
+  --font-bold: 900;
+
+  /* z index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+::selection {
+  background: var(--second-color);
+  color: var(--dark-color);
+}
+
+/* Mother */
+body {
+  background-color: var(--first-color);
+  font-family: "Maison Neue", sans-serif;
+}
+
+.torso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}

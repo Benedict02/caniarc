@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="T9zI-BnnAmOnSXbP3jJR" name="Page-1">
+        <mxGraphModel dx="1803" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Make notes by drawing/gdocs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=11.213508605957031;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=#3B54BD;gradientDirection=east;fontFamily=Helvetica;fontStyle=1;fontSize=24;" parent="1" vertex="1">
+                    <mxGeometry x="505" y="810" width="180" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Admin&lt;br&gt;Ben &amp;amp; Gabrio" style="whiteSpace=wrap;html=1;fontSize=24;gradientDirection=east;fontStyle=1;labelBackgroundColor=none;fillColor=#FF4A6E;gradientColor=#F03232;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="575" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;" parent="1" source="19" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="React &amp;amp; MUI&lt;br&gt;Web&lt;br&gt;hosted using github" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=24;fillColor=#0050ef;gradientDirection=east;fontColor=#ffffff;strokeColor=#001DBC;gradientColor=#6666FF;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="460" y="320" width="270" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;startArrow=classic;html=1;fontFamily=Helvetica;fontSize=24;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.492;exitY=-0.081;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4" target="19" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="550" as="sourcePoint"/>
+                        <mxPoint x="540" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;startArrow=classic;html=1;fontFamily=Helvetica;fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="640" as="sourcePoint"/>
+                        <mxPoint x="680" y="835" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Update Web" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=24;rotation=90;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="538.75" y="498.75" width="110" height="2.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Gets sent to Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=24;rotation=90;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="590" y="730" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Consumers" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;shadow=0;labelBackgroundColor=none;gradientDirection=east;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="485.25" y="150" width="217" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Forms for c&lt;/span&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;ritics + rating&lt;br style=&quot;font-size: 22px;&quot;&gt;from&lt;/span&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;consumers&lt;br style=&quot;font-size: 22px;&quot;&gt;BE use Express&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;fontSize=22;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="10" y="290" width="400" height="238.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="mysql db for storing data" style="rhombus;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="690" width="230" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=22;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="37" target="33">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="560" as="sourcePoint"/>
+                        <mxPoint x="400" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=22;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="33">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="235" y="700" as="sourcePoint"/>
+                        <mxPoint x="240" y="526.8125000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
