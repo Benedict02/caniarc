@@ -27,6 +27,8 @@ We wish to integrate this project with canitutor in the future. Providing study 
 #### Known Bugs/Issues
 
 - routing issue on base route while entering github. It will result in an error
+  https://github.com/remix-run/react-router/discussions/9481. It works on vite dev,
+  however it breaks when preview/build
 
 ## Features
 
