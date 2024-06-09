@@ -26,7 +26,7 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 #### Known Bugs/Issues
 
-- None
+- routing issue on base route while entering github. It will result in an error
 
 ## Features
 
