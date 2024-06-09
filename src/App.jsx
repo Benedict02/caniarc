@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/ColossalNotebook">
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
