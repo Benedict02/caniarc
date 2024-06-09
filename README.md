@@ -1,6 +1,8 @@
 # Colossal Notebook
 
-In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT in creating divine notes)
+In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT in creating divine notes).
+
+`https://benedict02.github.io/ColossalNotebook/`
 
 ## Authors
 
@@ -20,7 +22,11 @@ We wish to integrate this project with canitutor in the future. Providing study 
 #### How do I collaborate?
 
 - Webdev: Make sure that you are capable of `filling in one or more role` in the tech stack(look below).
-- Materials: Just `get good grades & take notes`, submit it to Gabrio. I'll include your name on the **"special thanks"** page
+- Materials: Just `get good grades, take notes, and make videos that breaks down past tests/assignments`, submit it to Gabrio or Benedict. We'll include your name on the **"special thanks"** page. **NOTE: Tutors from the Canitutor community are eligable to collaborate. Just send the notes to us**
+
+#### Known Bugs/Issues
+
+- None
 
 ## Features
 
