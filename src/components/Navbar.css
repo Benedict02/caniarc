@@ -119,11 +119,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: color 0.3s, font-size 0.05s ease-out;
-}
-
-.nav__link:hover {
-  color: var(--dark-color);
+  transition: color 0.3s, font-size 0.5s ease-in-out;
+  text-transform: uppercase;
 }
 
 /* Show Menu */
