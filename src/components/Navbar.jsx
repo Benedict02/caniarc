@@ -48,20 +48,29 @@ const Navbar = () => {
             <div className="nav__menu" id="nav-menu" ref={menuRef}>
               <ul className="nav__list">
                 <li>
-                  {/* TODO: to="/" might cause some issues later on in github hosting */}
-                  <Link to="/" className="nav__link" translate="no">
+                  <Link
+                    to="ColossalNotebook/"
+                    className="nav__link"
+                    translate="no"
+                  >
                     Home
                   </Link>
                 </li>
                 <li>
-                  {/* TODO: to="/" might cause some issues later on in github hosting */}
-                  <Link to="/about" className="nav__link" translate="no">
+                  <Link
+                    to="ColossalNotebook/about"
+                    className="nav__link"
+                    translate="no"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  {/* TODO: to="/" might cause some issues later on in github hosting */}
-                  <Link to="/hierarchy" className="nav__link" translate="no">
+                  <Link
+                    to="ColossalNotebook/hierarchy"
+                    className="nav__link"
+                    translate="no"
+                  >
                     Hierarchy
                   </Link>
                 </li>
@@ -72,15 +81,16 @@ const Navbar = () => {
                   </div>
                   <ul className="dropdown__menu">
                     <li>
-                      {/* TODO: to="/" might cause some issues later on in github hosting */}
-                      <Link to="/triangle" className="nav__link--dropdown">
+                      <Link
+                        to="ColossalNotebook/triangle"
+                        className="nav__link--dropdown"
+                      >
                         Elementary School
                       </Link>
                     </li>
                     <li>
-                      {/* TODO: to="/" might cause some issues later on in github hosting */}
                       <Link
-                        to="/trigonometry"
+                        to="ColossalNotebook/trigonometry"
                         className="nav__link--dropdown"
                         translate="no"
                       >
@@ -88,9 +98,8 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
-                      {/* TODO: to="/" might cause some issues later on in github hosting */}
                       <Link
-                        to="/trigonometry"
+                        to="ColossalNotebook/trigonometry"
                         className="nav__link--dropdown"
                         translate="no"
                       >
