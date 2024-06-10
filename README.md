@@ -37,6 +37,7 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
   solution:
   from `<Link to="/about">`, add `<Link to="/ColossalNotebook/about">`
+
   aiya I spent 3 hours finding a solution to this issue 😭
 
 ## Features
