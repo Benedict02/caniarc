@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Stack, Typography, Button, Divider } from "@mui/material";
+import { Stack, Typography, Button } from "@mui/material";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied";
 import "./Home.css";
@@ -34,12 +34,13 @@ const Home = () => {
             >
               <Button variant="outlined" sx={{ borderRadius: "32px" }}>
                 <Link
-                  to="/about"
+                  to="/ColossalNotebook/about"
                   style={{
                     height: "4vh",
                     textDecoration: "none",
                     display: "flex",
                     width: "10vw",
+                    color: "var(--dark-color)",
                     justifyContent: "center",
                     alignItems: "center",
                   }}
@@ -58,19 +59,23 @@ const Home = () => {
                   },
                 }}
               >
-                {/* TODO: to="/" might cause some issues later on in github hosting */}
                 {/* FIXME: Buttons look like shit */}
                 <Link
-                  to="/hierarchy"
+                  to="/ColossalNotebook/hierarchy"
                   style={{
                     textDecoration: "none",
                     color: "var(--dark-color)",
                     display: "flex",
                     width: "10vw",
                     justifyContent: "space-evenly",
+                    alignItems: "center",
                   }}
                 >
-                  Enter <SentimentDissatisfiedIcon /> <NavigateNextIcon />
+                  Enter
+                  <Stack direction="col" sx={{ alignItems: "center" }}>
+                    <SentimentDissatisfiedIcon />
+                    <NavigateNextIcon />
+                  </Stack>
                 </Link>
               </Button>
             </Stack>

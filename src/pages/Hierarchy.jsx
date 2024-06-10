@@ -37,7 +37,7 @@ const Hierarchy = () => {
   return (
     <>
       <Stack className="torso">
-        <Stack sx={{ width: "100vw", height: "70vh" }}>
+        <Stack sx={{ width: "100vw", height: "60vh" }}>
           <Stack>
             <Typography
               variant="h2"
@@ -66,7 +66,8 @@ const Hierarchy = () => {
                 color: "var(--dark-color)",
                 fontSize: "21px",
                 padding: "0",
-                width: "100%",
+                // width: "100%",
+                width: "100vw",
                 border: "2px solid #cecece",
               }}
             >
@@ -84,7 +85,10 @@ const Hierarchy = () => {
                 <ListItemIcon>
                   <CalculateIcon />
                 </ListItemIcon>
-                <ListItemText primary="Mathemathics" />
+                <ListItemText
+                  sx={{ fontWeight: "800" }}
+                  primary="Mathemathics"
+                />
                 {/* TODO: go do some icon alchemy shit check https://mui.com/material-ui/react-list/ at the nested list part */}
               </ListItemButton>
               <Collapse in={openMath} timeout="auto" unmountOnExit>
@@ -113,7 +117,7 @@ const Hierarchy = () => {
                           sx={{ ml: 10 }}
                         />
                       </ListItemIcon>
-                      {/* TODO: kata "Perminatan" hrs di delete biar shorten the length of title */}
+
                       <ListItemText
                         primary="LEARNING PROGRAM MATEMATIKA"
                         sx={{ ml: 1 }}
@@ -139,7 +143,6 @@ const Hierarchy = () => {
                       <ListItemIcon>
                         <Chip label="minat" color="success" sx={{ ml: 10 }} />
                       </ListItemIcon>
-                      {/* TODO: kata "Perminatan" hrs di delete biar shorten the length of title */}
                       <ListItemText
                         primary="Modul Matematika Peminatan Kelas X  (T.A. 2021-2022) (1) (1) (3) (1).pdf"
                         sx={{ ml: 1 }}
@@ -213,7 +216,7 @@ const Hierarchy = () => {
                       <ListItemIcon>
                         <Chip label="minat" color="success" sx={{ ml: 10 }} />
                       </ListItemIcon>
-                      {/* TODO: kata "Perminatan" hrs di delete biar shorten the length of title */}
+
                       <ListItemText primary="Module 1" sx={{ ml: 1 }} />
                     </ListItemButton>
                   </Link>

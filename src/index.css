@@ -1,16 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
-
-@font-face {
-  font-family: Maison Neue;
-  src: url(MaisonNeue.otf) format("opentype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: Maison Neue;
-  src: url(MaisonNeue.otf) format("opentype");
-  font-weight: 900;
-}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 * {
   margin: 0;
@@ -42,9 +30,9 @@
   --dark-color: #102c57;
 
   /* Font */
-  --body-font: "Masion Neue", sans-serif;
+  --body-font: "Outfit", sans-serif;
   --title-font: "Montserrat", sans-serif;
-  --normal-font-size: 0.92rem;
+  --normal-font-size: 1em;
   --big-font-size: 1.8em;
   --large-font-size: 2.5rem;
   --font-regular: 500;
@@ -64,7 +52,10 @@
 /* Mother */
 body {
   background-color: var(--first-color);
-  font-family: "Maison Neue", sans-serif;
+}
+
+a {
+  font-family: var(--body-font);
 }
 
 .torso {
