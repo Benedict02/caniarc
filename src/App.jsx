@@ -1,16 +1,11 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
-import Hierarchy from "./pages/Hierarchy";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter basename="/ColossalNotebook">
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
@@ -20,7 +15,9 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Navbar />
+      <Footer />
     </>
   );
 }

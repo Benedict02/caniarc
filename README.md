@@ -26,7 +26,14 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 #### Known Bugs/Issues
 
-- routing issue on base route while entering github. It will result in an error
+- [] Error 404: routing issue on base route https://benedict02.github.io/ColossalNotebookwhile
+  *Note to self: Read https://github.com/ErickKS/vite-deploy before starting future projects*
+  potential solution:
+  write `"homepage":"https://benedict02.github.io/ColossalNotebook",` in `package.json`
+
+- [] Error 404: routing issue when reloading page.
+  *Note to self: Read https://github.com/ErickKS/vite-react-router before starting future projects*
+  
 
 ## Features
 
