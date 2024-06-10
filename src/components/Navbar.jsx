@@ -36,7 +36,7 @@ const Navbar = () => {
         <header ref={navRef} className="header">
           <nav className="nav container">
             <div className="nav__data">
-              <Link to="/" className="nav__logo">
+              <Link to="/ColossalNotebook/" className="nav__logo">
                 <SentimentDissatisfiedIcon />
                 Colossal Notebook
               </Link>
@@ -48,17 +48,29 @@ const Navbar = () => {
             <div className="nav__menu" id="nav-menu" ref={menuRef}>
               <ul className="nav__list">
                 <li>
-                  <Link to="/" className="nav__link" translate="no">
+                  <Link
+                    to="/ColossalNotebook/"
+                    className="nav__link"
+                    translate="no"
+                  >
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="nav__link" translate="no">
+                  <Link
+                    to="/ColossalNotebook/about"
+                    className="nav__link"
+                    translate="no"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link to="/hierarchy" className="nav__link" translate="no">
+                  <Link
+                    to="/ColossalNotebook/hierarchy"
+                    className="nav__link"
+                    translate="no"
+                  >
                     Hierarchy
                   </Link>
                 </li>
@@ -69,13 +81,16 @@ const Navbar = () => {
                   </div>
                   <ul className="dropdown__menu">
                     <li>
-                      <Link to="/triangle" className="nav__link--dropdown">
+                      <Link
+                        to="/ColossalNotebook/triangle"
+                        className="nav__link--dropdown"
+                      >
                         Elementary School
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/trigonometry"
+                        to="/ColossalNotebook/trigonometry"
                         className="nav__link--dropdown"
                         translate="no"
                       >
@@ -84,7 +99,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        to="/trigonometry"
+                        to="/ColossalNotebook/trigonometry"
                         className="nav__link--dropdown"
                         translate="no"
                       >
