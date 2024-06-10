@@ -26,14 +26,18 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 #### Known Bugs/Issues
 
-- [] Error 404: routing issue on base route https://benedict02.github.io/ColossalNotebookwhile
-  *Note to self: Read https://github.com/ErickKS/vite-deploy before starting future projects*
-  potential solution:
-  write `"homepage":"https://benedict02.github.io/ColossalNotebook",` in `package.json`
+- [Fixed] Error 404: routing issue on base route https://benedict02.github.io/ColossalNotebookwhile
+  _Note to self: Read https://github.com/ErickKS/vite-deploy before starting future projects_
 
-- [] Error 404: routing issue when reloading page.
-  *Note to self: Read https://github.com/ErickKS/vite-react-router before starting future projects*
-  
+  solution:
+  add `"homepage":"https://benedict02.github.io/ColossalNotebook",` in `package.json`
+
+- [Fixed] Error 404: routing issue when reloading page.
+  _Note to self: Read https://github.com/ErickKS/vite-react-router before starting future projects_
+
+  solution:
+  from `<Link to="/about">`, add `<Link to="/ColossalNotebook/about">`
+  aiya I spent 3 hours finding a solution to this issue 😭
 
 ## Features
 
