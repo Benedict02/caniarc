@@ -46,7 +46,7 @@ const Hierarchy = () => {
                 justifyContent: "center",
               }}
             >
-              Hierarchy of Colossal Notebook
+              Hierarchy
             </Typography>
           </Stack>
           <Stack>
