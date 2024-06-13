@@ -1,18 +1,18 @@
 .broken {
-  background-image: url("/ethan.png");
+  background-image: url("/error.gif");
   background-repeat: repeat;
   height: 100vh;
 }
 
 .broken__filter {
-  background-color: rgba(0, 0, 0, 0.833);
+  background-color: rgba(0, 0, 0, 0.698);
   height: 100vh;
 }
 
 .error__container {
   color: var(--first-color);
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,17 +22,63 @@
 }
 
 .error__msg--title {
-  font-family: monospace;
+  /* font-family: monospace;
   color: var(--first-color);
+  margin: 3vh 0 3vh 0; */
+
   font-size: 5em;
-  margin: 3vh 0 3vh 0;
+  /* font-family: Impact, sans-serif;
+  color: #24c0fd;
+  -webkit-text-stroke: 0.01em #0000aa;
+  filter: progid:DXImageTransform.Microsoft.Glow(Color=#0000aa,Strength=1);
+  text-shadow: 0.13em -0.13em 0px #0000aa;
+  letter-spacing: -0.05em; */
+
+  transform: skew(0, -15deg) scale(1, 1.5);
+  -webkit-transform: skew(0, -15deg) scale(1, 1.5);
+  -moz-transform: skew(0, -15deg) scale(1, 1.5);
+  -o-transform: skew(0, -15deg) scale(1, 1.5);
+  -ms-transform: skew(0, -15deg) scale(1, 1.5);
+  font-family: Impact;
+  background: #fdea00;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #fdea00 0%, #fdcf00 44%, #fc2700 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #fdea00),
+    color-stop(44%, #fdcf00),
+    color-stop(100%, #fc2700)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #fdea00 0%,
+    #fdcf00 44%,
+    #fc2700 100%
+  );
+  background: -o-linear-gradient(top, #fdea00 0%, #fdcf00 44%, #fc2700 100%);
+  background: -ms-linear-gradient(top, #fdea00 0%, #fdcf00 44%, #fc2700 100%);
+  background: linear-gradient(to bottom, #fdea00 0%, #fdcf00 44%, #fc2700 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdea00', endColorstr='#fc2700', GradientType=0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .error__msg--detail {
+  padding: 5vh 0 0 0;
   color: greenyellow;
   font-size: 1.5em;
 }
 
 .error__msg--detail ul {
   list-style-type: disc;
+}
+
+.error__christmas {
+  position: "absolute";
+  background: url("/christmas-lights.gif");
+  width: 1080px;
+  height: 48px;
 }
