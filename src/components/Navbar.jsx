@@ -85,7 +85,7 @@ const Navbar = () => {
                         to="/ColossalNotebook/triangle"
                         className="nav__link--dropdown"
                       >
-                        Elementary School
+                        I'm just
                       </Link>
                     </li>
                     <li>
@@ -94,7 +94,7 @@ const Navbar = () => {
                         className="nav__link--dropdown"
                         translate="no"
                       >
-                        Junior High Scool
+                        Joking, This is a boilerplate btw.
                       </Link>
                     </li>
                     <li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                         className="nav__link--dropdown"
                         translate="no"
                       >
-                        Senior High Scool
+                        I haven't deleted it
                       </Link>
                     </li>
                   </ul>

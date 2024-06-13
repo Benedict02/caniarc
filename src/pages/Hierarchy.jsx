@@ -14,6 +14,7 @@ import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Hierarchy.css";
+import HieGene from "../components/HieGene";
 
 const Hierarchy = () => {
   const [openMath, setOpenMath] = useState(false);
@@ -37,7 +38,7 @@ const Hierarchy = () => {
   return (
     <>
       <Stack className="torso">
-        <Stack sx={{ width: "100vw", height: "60vh" }}>
+        <Stack sx={{ width: "90vw", height: "60vh" }}>
           <Stack>
             <Typography
               variant="h2"
@@ -50,24 +51,12 @@ const Hierarchy = () => {
             </Typography>
           </Stack>
           <Stack>
-            <div
-              style={{
-                position: "absolute",
-                borderLeft: "1px solid #ffaa9f",
-                borderRight: "1px solid #ffaa9f",
-                width: "2px",
-                float: "left",
-                height: "495px",
-                marginLeft: "60px",
-              }}
-            ></div>
             <List
               sx={{
                 color: "var(--dark-color)",
                 fontSize: "21px",
                 padding: "0",
-                // width: "100%",
-                width: "100vw",
+                width: "100%",
                 border: "2px solid #cecece",
               }}
             >
@@ -95,86 +84,24 @@ const Hierarchy = () => {
                 {/* I want component="li" because of the notebook background */}
 
                 <List disablePadding>
-                  <Link
-                    to="https://drive.google.com/file/d/1b_61jcUHMAwQQqkZRIHoLyIO07PeDHPT/view?usp=sharing"
-                    target="_blank"
-                    style={{ color: "var(--dark-color)" }}
-                  >
-                    <ListItemButton
-                      sx={{
-                        pl: 4,
-                        listStyle: "none",
-                        borderBottom: "1px dotted #ccc",
-                        // textIndent: "25px",
-                        height: "auto",
-                        textTransform: "capitalize",
-                      }}
-                    >
-                      <ListItemIcon>
-                        <Chip
-                          label="syllabus"
-                          color="secondary"
-                          sx={{ ml: 10 }}
-                        />
-                      </ListItemIcon>
-
-                      <ListItemText
-                        primary="LEARNING PROGRAM MATEMATIKA"
-                        sx={{ ml: 1 }}
-                      />
-                    </ListItemButton>
-                  </Link>
-
-                  <Link
-                    to="https://drive.google.com/file/d/1lQUQWQs52Mx8b686OWqs1YmEZg1VCEdY/view?usp=sharing"
-                    target="_blank"
-                    style={{ color: "var(--dark-color)" }}
-                  >
-                    <ListItemButton
-                      sx={{
-                        pl: 4,
-                        listStyle: "none",
-                        borderBottom: "1px dotted #ccc",
-                        // textIndent: "25px",
-                        height: "auto",
-                        textTransform: "capitalize",
-                      }}
-                    >
-                      <ListItemIcon>
-                        <Chip label="minat" color="success" sx={{ ml: 10 }} />
-                      </ListItemIcon>
-                      <ListItemText
-                        primary="Modul Matematika Peminatan Kelas X  (T.A. 2021-2022) (1) (1) (3) (1).pdf"
-                        sx={{ ml: 1 }}
-                      />
-                    </ListItemButton>
-                  </Link>
-
-                  <Link
-                    to="https://drive.google.com/file/d/1o47EA13IxT-I4h47qbU8B4dNm1UaB5gp/view?usp=sharing"
-                    target="_blank"
-                    style={{ color: "var(--dark-color)" }}
-                  >
-                    <ListItemButton
-                      sx={{
-                        pl: 4,
-                        listStyle: "none",
-                        borderBottom: "1px dotted #ccc",
-                        // textIndent: "25px",
-                        height: "auto",
-                        textTransform: "capitalize",
-                      }}
-                    >
-                      <ListItemIcon>
-                        <Chip label="wajib" color="warning" sx={{ ml: 10 }} />
-                      </ListItemIcon>
-                      {/* TODO: kata "WAJIB" hrs di delete biar shorten the length of title */}
-                      <ListItemText
-                        primary="Modul Matematika WAJIB Kelas X IPA dan IPS (2021-2022) (1) (1).pdf"
-                        sx={{ ml: 1 }}
-                      />
-                    </ListItemButton>
-                  </Link>
+                  <HieGene
+                    link="https://drive.google.com/file/d/1b_61jcUHMAwQQqkZRIHoLyIO07PeDHPT/view?usp=sharing"
+                    color="secondary"
+                    chip="Syllabus"
+                    title="Learning Program Matematika"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1lQUQWQs52Mx8b686OWqs1YmEZg1VCEdY/view?usp=sharing"
+                    color="warning"
+                    chip="Module X"
+                    title="Modul Matematika Peminatan Kelas X  (T.A. 2021-2022) (1) (1) (3) (1).pdf"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1o47EA13IxT-I4h47qbU8B4dNm1UaB5gp/view?usp=sharing"
+                    color="warning"
+                    chip="Module X"
+                    title="Modul Matematika WAJIB Kelas X IPA dan IPS (2021-2022) (1) (1).pdf"
+                  />
                 </List>
               </Collapse>
 
@@ -198,28 +125,12 @@ const Hierarchy = () => {
               <Collapse in={openPhysics} timeout="auto" unmountOnExit>
                 {/* I want component="li" because of the notebook background */}
                 <List disablePadding>
-                  <Link
-                    to=""
-                    target="_blank"
-                    style={{ color: "var(--dark-color)" }}
-                  >
-                    <ListItemButton
-                      sx={{
-                        pl: 4,
-                        listStyle: "none",
-                        borderBottom: "1px dotted #ccc",
-                        // textIndent: "25px",
-                        height: "auto",
-                        textTransform: "capitalize",
-                      }}
-                    >
-                      <ListItemIcon>
-                        <Chip label="minat" color="success" sx={{ ml: 10 }} />
-                      </ListItemIcon>
-
-                      <ListItemText primary="Module 1" sx={{ ml: 1 }} />
-                    </ListItemButton>
-                  </Link>
+                  <HieGene
+                    link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
+                    color="warning"
+                    chip="Module X"
+                    title="MODUL PEMBELAJARAN FISIKA KELAS X SMA KANISIUS.pdf"
+                  />
                 </List>
               </Collapse>
 
@@ -253,7 +164,7 @@ const Hierarchy = () => {
                     }}
                   >
                     <ListItemIcon>
-                      <Chip label="minat" color="success" sx={{ ml: 10 }} />
+                      <Chip label="Module X" color="warning" sx={{ ml: 10 }} />
                     </ListItemIcon>
                     <ListItemText primary="Module 1" sx={{ ml: 1 }} />
                   </ListItemButton>
