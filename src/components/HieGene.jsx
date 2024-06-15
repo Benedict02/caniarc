@@ -7,12 +7,14 @@ import {
   Avatar,
 } from "@mui/material";
 import GradeIcon from "@mui/icons-material/Grade";
-// Note to self: DO NOT REPEAT JS CODE. IF U FEEL THAT YOU'VE SPAMMED COPY PASTE AND THE CODE IS LONG:
-// GO MAKE A SEPERATE FILE AS A GENERATOR THING IDK JUST D.R.Y. (DONT REPEAT YOURSELF)
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+// Note to future self: DO NOT REPEAT JS CODE. IF U FEEL THAT YOU'VE SPAMMED COPY PASTE AND THE CODE IS LONG:
+// GO MAKE A SEPERATE FILE AS A GENERATOR THING BCS ITS D.R.Y. (DONT REPEAT YOURSELF)
 
 const palette = {
   benhal: "#DC143C",
   gabrio: "#FF5733",
+  notebank: "#3246a8",
 };
 
 const HieGene = (props) => {
@@ -52,6 +54,17 @@ const HieGene = (props) => {
                 sx={{
                   ml: 10,
                   backgroundColor: palette.gabrio,
+                  color: "white",
+                  fontWeight: "650",
+                }}
+              />
+            ) : props.chip == "Notebank" ? (
+              <Chip
+                icon={<CheckCircleIcon color="white" />}
+                label={props.chip}
+                sx={{
+                  ml: 10,
+                  backgroundColor: palette.notebank,
                   color: "white",
                   fontWeight: "650",
                 }}

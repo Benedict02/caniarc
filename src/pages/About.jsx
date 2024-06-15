@@ -13,13 +13,15 @@ import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import { useState } from "react";
 import HieGene from "../components/HieGene";
 
+//I want to add chip filter thingy for the authors of the notes. So when people want to get gabrio's catatan they can just go to about and select the gabrio
+
 const About = () => {
-  const [openMath, setOpenMath] = useState(false);
+  const [openChips, setOpenChips] = useState(false);
   const [openPhysics, setOpenPhysics] = useState(false);
   const [openBiology, setOpenBiology] = useState(false);
 
-  const handleClickMath = () => {
-    setOpenMath(!openMath);
+  const handleClickChips = () => {
+    setOpenChips(!openChips);
   };
 
   const handleClickPhysics = () => {
@@ -28,9 +30,6 @@ const About = () => {
   const handleClickBiology = () => {
     setOpenBiology(!openBiology);
   };
-  // const handleClickBiology = () => {
-  //   setOpenPhysics(!openPhysics);
-  // };
 
   return (
     <>
@@ -66,14 +65,14 @@ const About = () => {
                   height: "auto",
                   textTransform: "capitalize",
                 }}
-                onClick={handleClickMath}
+                onClick={handleClickChips}
               >
                 <ListItemIcon>
                   <CalculateIcon />
                 </ListItemIcon>
                 <ListItemText sx={{ fontWeight: "800" }} primary="Chips" />
               </ListItemButton>
-              <Collapse in={openMath} timeout="auto" unmountOnExit>
+              <Collapse in={openChips} timeout="auto" unmountOnExit>
                 {/* I want component="li" because of the notebook background */}
 
                 <List disablePadding>
@@ -90,10 +89,10 @@ const About = () => {
                     title="Catatan Gabrio Manuel Kapuangan"
                   />
                   <HieGene
-                    link="https://drive.google.com/file/d/1o47EA13IxT-I4h47qbU8B4dNm1UaB5gp/view?usp=sharing"
+                    link=""
                     color="warning"
-                    chip="Module X"
-                    title="Module kelas X"
+                    chip="Module Kelas X"
+                    title="Module kelas X sourced from kakak kelas(usually aquired during liburan akhir semester)"
                   />
                 </List>
               </Collapse>

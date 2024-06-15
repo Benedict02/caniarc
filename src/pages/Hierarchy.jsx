@@ -30,14 +30,11 @@ const Hierarchy = () => {
   const handleClickBiology = () => {
     setOpenBiology(!openBiology);
   };
-  // const handleClickBiology = () => {
-  //   setOpenPhysics(!openPhysics);
-  // };
 
   return (
     <>
       <Stack className="torso">
-        <Stack sx={{ width: "90vw", height: "60vh" }}>
+        <Stack sx={{ width: "90vw", height: "60vh" }} gap={2}>
           <Stack>
             <Typography
               variant="h2"
@@ -89,19 +86,31 @@ const Hierarchy = () => {
                   <HieGene
                     link="https://drive.google.com/file/d/1lQUQWQs52Mx8b686OWqs1YmEZg1VCEdY/view?usp=sharing"
                     color="warning"
-                    chip="Module X"
-                    title="Modul Matematika Peminatan Kelas X  (T.A. 2021-2022) (1) (1) (3) (1).pdf"
+                    chip="Module Kelas X"
+                    title="Modul Matematika Peminatan Kelas X  (T.A. 2021-2022) (1) (1) (3) (1)"
                   />
                   <HieGene
                     link="https://drive.google.com/file/d/1o47EA13IxT-I4h47qbU8B4dNm1UaB5gp/view?usp=sharing"
                     color="warning"
-                    chip="Module X"
-                    title="Modul Matematika WAJIB Kelas X IPA dan IPS (2021-2022) (1) (1).pdf"
+                    chip="Module Kelas X"
+                    title="Modul Matematika WAJIB Kelas X IPA dan IPS (2021-2022) (1) (1)"
                   />
                   <HieGene
                     link="https://drive.google.com/file/d/17y9BDu0R9YLeNeiWudwUbAdfyaSWpABY/view?usp=sharing"
                     chip="BenHal"
-                    title="Trigonometry Introduction.jpg"
+                    title="[Trigonometry] #1 Introduction"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1gYkFt7eWf1sgkhlj2DKB0pzQgqtPEKfS/view?usp=sharing"
+                    chip="BenHal"
+                    title="[Trigonometry] #2 Sudut Berelasi"
+                  />
+
+                  {/* Go continue trigono this is a little divider for matrix(kls 11) */}
+                  <HieGene
+                    link="https://docs.google.com/document/d/1J7SXECsV4tbBkGXYjuUDXf5yaLIeWp4n3A34srADdZk/edit?usp=sharing"
+                    chip="Notebank"
+                    title="[Matrix] #1 Introduction & Operations"
                   />
                 </List>
               </Collapse>
@@ -128,9 +137,14 @@ const Hierarchy = () => {
                 <List disablePadding>
                   <HieGene
                     link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
+                    chip="Pending"
+                    title="Learning program Fisika"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
                     color="warning"
-                    chip="Module X"
-                    title="MODUL PEMBELAJARAN FISIKA KELAS X SMA KANISIUS.pdf"
+                    chip="Module Kelas X"
+                    title="MODUL PEMBELAJARAN FISIKA KELAS X SMA KANISIUS"
                   />
                 </List>
               </Collapse>
@@ -153,8 +167,7 @@ const Hierarchy = () => {
               </ListItemButton>
               <Collapse in={openBiology} timeout="auto" unmountOnExit>
                 <HieGene
-                  color="primary"
-                  title="Lorem Ipsum Dolor sit amet"
+                  title="Learning program biologi"
                   link="/"
                   chip="pending"
                 />
@@ -165,23 +178,6 @@ const Hierarchy = () => {
             <Typography sx={{ color: "crimson", fontWeight: "800" }}>
               IMPORTANT: We are not gods, so mistakes may happen. Contact the
               person who made the faulty note for revisions.
-            </Typography>
-            <Typography>
-              INFO: This notebank is published online.{" "}
-              <strong>NOT FOR THE USE OF CHEATING</strong>, if you had thoughts
-              on opening this mid-test. Respectfully, go fuck yourself!
-            </Typography>
-            <Typography>
-              To avoid this from happening, links to notes & modules will not
-              work during school times 07:30 - 14:00 WIB.
-            </Typography>
-            <Typography>
-              If you disagree, create a proposal with full rationality and send
-              it to me directly (
-              <Link to={`https://wa.me/${BenHalWA}`} target="_blank">
-                +62 818 588 589
-              </Link>
-              )
             </Typography>
           </Stack>
         </Stack>
