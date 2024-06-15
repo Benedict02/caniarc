@@ -7,20 +7,34 @@ import {
   ListItemText,
   Collapse,
 } from "@mui/material";
+import CalculateIcon from "@mui/icons-material/Calculate";
+import CoronavirusIcon from "@mui/icons-material/Coronavirus";
+import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import { useState } from "react";
-import "./Hierarchy.css";
+import HieGene from "../components/HieGene";
+
+//I want to add chip filter thingy for the authors of the notes. So when people want to get gabrio's catatan they can just go to about and select the gabrio
 
 const About = () => {
-  const [open, setOpen] = useState(false);
+  const [openChips, setOpenChips] = useState(false);
+  const [openPhysics, setOpenPhysics] = useState(false);
+  const [openBiology, setOpenBiology] = useState(false);
 
-  const handleClick = () => {
-    setOpen(!open);
+  const handleClickChips = () => {
+    setOpenChips(!openChips);
+  };
+
+  const handleClickPhysics = () => {
+    setOpenPhysics(!openPhysics);
+  };
+  const handleClickBiology = () => {
+    setOpenBiology(!openBiology);
   };
 
   return (
     <>
       <Stack className="torso">
-        <Stack sx={{ width: "100vw", height: "70vh" }}>
+        <Stack sx={{ width: "90vw", height: "60vh" }}>
           <Stack>
             <Typography
               variant="h2"
@@ -29,34 +43,113 @@ const About = () => {
                 justifyContent: "center",
               }}
             >
-              About Colossal Notebook
+              About
             </Typography>
           </Stack>
           <Stack>
-            <List>
-              <ListItemButton>
-                <ListItemIcon></ListItemIcon>
-                <ListItemText primary="Test" />
+            <List
+              sx={{
+                color: "var(--dark-color)",
+                fontSize: "21px",
+                padding: "0",
+                width: "100%",
+                border: "2px solid #cecece",
+              }}
+            >
+              {/* Math */}
+              <ListItemButton
+                sx={{
+                  listStyle: "none",
+                  borderBottom: "1px dotted #ccc",
+                  textIndent: "25px",
+                  height: "auto",
+                  textTransform: "capitalize",
+                }}
+                onClick={handleClickChips}
+              >
+                <ListItemIcon>
+                  <CalculateIcon />
+                </ListItemIcon>
+                <ListItemText sx={{ fontWeight: "800" }} primary="Chips" />
               </ListItemButton>
-              <ListItemButton>
-                <ListItemIcon></ListItemIcon>
-                <ListItemText primary="lorem" />
-              </ListItemButton>
+              <Collapse in={openChips} timeout="auto" unmountOnExit>
+                {/* I want component="li" because of the notebook background */}
 
-              {/* DOMAIN EXPANSION */}
-              <ListItemButton onClick={handleClick}>
-                <ListItemIcon></ListItemIcon>
-                <ListItemText primary="Expanding" />
+                <List disablePadding>
+                  <HieGene
+                    link=""
+                    color="info"
+                    chip="BenHal"
+                    title="Catatan Benedict Halim"
+                  />
+                  <HieGene
+                    link=""
+                    color="warning"
+                    chip="Gabrio"
+                    title="Catatan Gabrio Manuel Kapuangan"
+                  />
+                  <HieGene
+                    link=""
+                    color="warning"
+                    chip="Module Kelas X"
+                    title="Module kelas X sourced from kakak kelas(usually aquired during liburan akhir semester)"
+                  />
+                </List>
+              </Collapse>
+
+              {/* Physics */}
+              <ListItemButton
+                sx={{
+                  listStyle: "none",
+                  borderBottom: "1px dotted #ccc",
+                  textIndent: "25px",
+                  height: "auto",
+                  textTransform: "capitalize",
+                }}
+                onClick={handleClickPhysics}
+              >
+                <ListItemIcon>
+                  <FlightTakeoffIcon />
+                </ListItemIcon>
+                <ListItemText primary="Physics" />
                 {/* TODO: go do some icon alchemy shit check https://mui.com/material-ui/react-list/ at the nested list part */}
               </ListItemButton>
-              <Collapse in={open} timeout="auto" unmountOnExit>
+              <Collapse in={openPhysics} timeout="auto" unmountOnExit>
                 {/* I want component="li" because of the notebook background */}
                 <List disablePadding>
-                  <ListItemButton sx={{ pl: 4 }}>
-                    <ListItemIcon>{/* do more icon alchemy */}</ListItemIcon>
-                    <ListItemText primary="Malevolent Shrine" />
-                  </ListItemButton>
+                  <HieGene
+                    link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
+                    color="warning"
+                    chip="Module X"
+                    title="MODUL PEMBELAJARAN FISIKA KELAS X SMA KANISIUS.pdf"
+                  />
                 </List>
+              </Collapse>
+
+              {/* Biology */}
+              <ListItemButton
+                sx={{
+                  listStyle: "none",
+                  borderBottom: "1px dotted #ccc",
+                  textIndent: "25px",
+                  height: "auto",
+                  textTransform: "capitalize",
+                }}
+                onClick={handleClickBiology}
+              >
+                <ListItemIcon>
+                  <CoronavirusIcon />
+                </ListItemIcon>
+                <ListItemText primary="Biology" />
+              </ListItemButton>
+              <Collapse in={openBiology} timeout="auto" unmountOnExit>
+                {/* I want component="li" because of the notebook background */}
+                <HieGene
+                  color="primary"
+                  title="Lorem Ipsum Dolor sit amet"
+                  link="/"
+                  chip="pending"
+                />
               </Collapse>
             </List>
           </Stack>
