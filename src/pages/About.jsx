@@ -78,13 +78,17 @@ const About = () => {
                 <List disablePadding>
                   <HieGene
                     link=""
-                    color="info"
+                    color="warning"
+                    chip="Notebank"
+                    title="Catatan collab, lbh dri 1 org (info di dalam. Biasanya dikasih credit)"
+                  />
+                  <HieGene
+                    link=""
                     chip="BenHal"
                     title="Catatan Benedict Halim"
                   />
                   <HieGene
                     link=""
-                    color="warning"
                     chip="Gabrio"
                     title="Catatan Gabrio Manuel Kapuangan"
                   />
@@ -92,7 +96,7 @@ const About = () => {
                     link=""
                     color="warning"
                     chip="Module Kelas X"
-                    title="Module kelas X sourced from kakak kelas(usually aquired during liburan akhir semester)"
+                    title="Module kelas X sourced from seniors(usually aquired during liburan akhir semester)"
                   />
                 </List>
               </Collapse>
