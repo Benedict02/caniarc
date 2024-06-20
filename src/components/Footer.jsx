@@ -6,16 +6,19 @@ const Footer = () => {
       <Stack>
         <Stack>
           <Typography>
-            This notebank is published online,{" "}
-            <strong>NOT FOR THE USE OF CHEATING</strong>. In order to avoid this
-            from happening, links to notes & modules will be disabled during
-            school times <strong>07:30 - 14:00 WIB</strong>.
+            Notebank ini dipublikasi online,{" "}
+            <strong>tujuannya bukan untuk dijadikan bahan contekan</strong>.
+            Link catatan modules tidak akan valid pada waktu sekolah{" "}
+            <strong>07:30 - 14:00 WIB</strong>.
           </Typography>
           <Typography>
-            If you disagree with this constitution and/or have plans to commit
-            something that shows dishonesty, please consider resigning from
-            Canisius College.
+            Bagi anda yang memiliki keinginan untuk menyontek, kami himbau untuk
+            mengangkat kaki dari Kolese Kanisius gausah sekolah aja sekalian,
+            sebab anda merupakan sebuah kegagalan. AMDG
           </Typography>
+        </Stack>
+        <Stack>
+          <Typography>Best Regards, BenHal.</Typography>
         </Stack>
       </Stack>
     </>
