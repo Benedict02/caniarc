@@ -76,34 +76,25 @@ const Navbar = () => {
                 </li>
                 <li className="dropdown__item">
                   <div className="nav__link">
-                    Pricing
+                    Miscellaneous
                     <i className="dropdown__arrow ri-arrow-drop-down-line"></i>
                   </div>
                   <ul className="dropdown__menu">
                     <li>
                       <Link
-                        to="/ColossalNotebook/triangle"
+                        to="/ColossalNotebook/"
                         className="nav__link--dropdown"
                       >
-                        I'm just
+                        [let me cook] BenHal's book of brainrot
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/ColossalNotebook/trigonometry"
+                        to="/ColossalNotebook/lol"
                         className="nav__link--dropdown"
                         translate="no"
                       >
-                        Joking, This is a boilerplate btw.
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/ColossalNotebook/trigonometry"
-                        className="nav__link--dropdown"
-                        translate="no"
-                      >
-                        I haven't deleted it
+                        World's most eloquent 404 Page
                       </Link>
                     </li>
                   </ul>

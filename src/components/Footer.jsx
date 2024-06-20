@@ -3,7 +3,7 @@ import { Stack, Typography } from "@mui/material";
 const Footer = () => {
   return (
     <>
-      <Stack>
+      <Stack sx={{}}>
         <Stack>
           <Typography>
             Notebank ini dipublikasi online,{" "}

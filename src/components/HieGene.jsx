@@ -49,6 +49,14 @@ const HieGene = (props) => {
                   fontWeight: "800",
                 }}
               />
+            ) : props.chip == "Q" ? (
+              <Chip
+                label={props.chip}
+                sx={{
+                  ml: 10,
+                  fontWeight: "800",
+                }}
+              />
             ) : props.chip == "BenHal" ? (
               <Chip
                 avatar={<Avatar alt="BenHal" src="./logo.svg" />}
