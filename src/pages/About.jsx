@@ -7,9 +7,9 @@ import {
   ListItemText,
   Collapse,
 } from "@mui/material";
-import CalculateIcon from "@mui/icons-material/Calculate";
+import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
 import CoronavirusIcon from "@mui/icons-material/Coronavirus";
-import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
+import HelpIcon from "@mui/icons-material/Help";
 import { useState } from "react";
 import HieGene from "../components/HieGene";
 
@@ -68,7 +68,7 @@ const About = () => {
                 onClick={handleClickChips}
               >
                 <ListItemIcon>
-                  <CalculateIcon />
+                  <DeveloperBoardIcon />
                 </ListItemIcon>
                 <ListItemText sx={{ fontWeight: "800" }} primary="Chips" />
               </ListItemButton>
@@ -80,7 +80,7 @@ const About = () => {
                     link=""
                     color="warning"
                     chip="Notebank"
-                    title="Catatan collab, lbh dri 1 org (info di dalam. Biasanya dikasih credit)"
+                    title="Catatan collab, lbh dri 1 org (Biasanya dikasih credit siapa yg buat)"
                   />
                   <HieGene
                     link=""
@@ -98,10 +98,15 @@ const About = () => {
                     chip="Module Kelas X"
                     title="Module kelas X sourced from seniors(usually aquired during liburan akhir semester)"
                   />
+                  <HieGene
+                    link=""
+                    color="info"
+                    chip="Latihan Soal"
+                    title="Latsol biasa. Jawaban ada di bawah biasanya(semoga gw inget utk masukin)."
+                  />
                 </List>
               </Collapse>
 
-              {/* Physics */}
               <ListItemButton
                 sx={{
                   listStyle: "none",
@@ -113,24 +118,66 @@ const About = () => {
                 onClick={handleClickPhysics}
               >
                 <ListItemIcon>
-                  <FlightTakeoffIcon />
+                  <HelpIcon />
                 </ListItemIcon>
-                <ListItemText primary="Physics" />
-                {/* TODO: go do some icon alchemy shit check https://mui.com/material-ui/react-list/ at the nested list part */}
+                <ListItemText primary="Frequently Asked Questions" />
               </ListItemButton>
               <Collapse in={openPhysics} timeout="auto" unmountOnExit>
                 {/* I want component="li" because of the notebook background */}
                 <List disablePadding>
                   <HieGene
-                    link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
-                    color="warning"
-                    chip="Module X"
-                    title="MODUL PEMBELAJARAN FISIKA KELAS X SMA KANISIUS.pdf"
+                    link=""
+                    chip="Q"
+                    title="Buat apa ini notebank dibuat?"
+                  />
+                  <HieGene
+                    link=""
+                    chip="A"
+                    title="Gw gabut dripada main game & baca manga mending buat catatan & bljr. Oiy sama mau bantu2 temen sekaligus portfolio"
+                  />
+                  <HieGene
+                    link=""
+                    chip="Q"
+                    title="Gw g nangkep materi! gmn nih?"
+                  />
+                  <HieGene
+                    link=""
+                    chip="A"
+                    title="Bljr, doa, banyak2 ikut canitutor, tanya guru."
+                  />
+                  <HieGene
+                    link=""
+                    chip="Q"
+                    title="Bedanya ini sama google classroom apa?"
+                  />
+                  <HieGene
+                    link=""
+                    chip="A"
+                    title="Google Classroom terlalu berpusat pada guru. Ini lbh ke arah siswa jdi lbh flexible & lengkap(teorinya gt sih. gatau praktek kedepannya gmn)"
+                  />
+                  <HieGene
+                    link=""
+                    chip="Q"
+                    title="Ngapain sih gw pake notebank ini?"
+                  />
+                  <HieGene
+                    link=""
+                    chip="A"
+                    title="Bagi makhluk ambis berat g ketolong, anda bisa mendapatkan ilmu lbh duluan dari sekolah melalui ini web kek bocoran gt saat yg lain berlibur & istirahat"
                   />
                 </List>
               </Collapse>
+            </List>
+          </Stack>
+        </Stack>
+      </Stack>
+    </>
+  );
+};
 
-              {/* Biology */}
+export default About;
+
+/*
               <ListItemButton
                 sx={{
                   listStyle: "none",
@@ -147,20 +194,10 @@ const About = () => {
                 <ListItemText primary="Biology" />
               </ListItemButton>
               <Collapse in={openBiology} timeout="auto" unmountOnExit>
-                {/* I want component="li" because of the notebook background */}
                 <HieGene
                   color="primary"
                   title="Lorem Ipsum Dolor sit amet"
                   link="/"
                   chip="pending"
                 />
-              </Collapse>
-            </List>
-          </Stack>
-        </Stack>
-      </Stack>
-    </>
-  );
-};
-
-export default About;
+              </Collapse> */

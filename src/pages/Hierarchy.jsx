@@ -11,7 +11,6 @@ import CalculateIcon from "@mui/icons-material/Calculate";
 import CoronavirusIcon from "@mui/icons-material/Coronavirus";
 import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import HieGene from "../components/HieGene";
 
 const Hierarchy = () => {
@@ -79,7 +78,6 @@ const Hierarchy = () => {
                 <List disablePadding>
                   <HieGene
                     link="https://drive.google.com/file/d/1b_61jcUHMAwQQqkZRIHoLyIO07PeDHPT/view?usp=sharing"
-                    color="secondary"
                     chip="Syllabus"
                     title="Learning Program Matematika"
                   />
@@ -96,14 +94,32 @@ const Hierarchy = () => {
                     title="Modul Matematika WAJIB Kelas X IPA dan IPS (2021-2022) (1) (1)"
                   />
                   <HieGene
-                    link="https://drive.google.com/file/d/17y9BDu0R9YLeNeiWudwUbAdfyaSWpABY/view?usp=sharing"
+                    link="https://drive.google.com/file/d/1GnZGpWiz8JwS9Mh_DFUmEqt95Q9o3di6/view?usp=sharing"
+                    color="warning"
+                    chip="Module Kelas X"
+                    title="[Trigonometry] Modul Trigonometry CC (src: Kakel)"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1gTE1jGRdi5wj7cFzngB4qqMDD-yf2Ipk/view?usp=sharing"
                     chip="BenHal"
                     title="[Trigonometry] #1 Introduction"
                   />
                   <HieGene
-                    link="https://drive.google.com/file/d/1gYkFt7eWf1sgkhlj2DKB0pzQgqtPEKfS/view?usp=sharing"
+                    link="https://drive.google.com/file/d/1j4tcYnXXI2OeuqyG7gMUvRS7tE45Jzo7/view?usp=sharing"
                     chip="BenHal"
-                    title="[Trigonometry] #2 Sudut Berelasi"
+                    title="[Trigonometry] #2 Sudut Berelasi & Asal usul radian"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1kL5YXxboEoQFtqcDgOPexaZD5BGffmMA/view?usp=sharing"
+                    color="info"
+                    chip="Latihan Soal"
+                    title="[Trigonometry] Latihan Soal Perbandingan & Fungsi Trigonometri"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1ng76-zmVoIBI6uxG0beKLSc-8RYuD9sD/view?usp=sharing"
+                    color="info"
+                    chip="Latihan Soal"
+                    title="[Trigonometry] Latihan Soal Aturan Sinus Cosinus"
                   />
 
                   {/* Go continue trigono this is a little divider for matrix(kls 11) */}
@@ -176,8 +192,8 @@ const Hierarchy = () => {
           </Stack>
           <Stack>
             <Typography sx={{ color: "crimson", fontWeight: "800" }}>
-              IMPORTANT: We are not gods, so mistakes may happen. Contact the
-              person who made the faulty note for revisions.
+              INGATLAH NAK! Klo ada kesalahan, contact yg buat catatan itu
+              sehingga bisa di revisi.
             </Typography>
           </Stack>
         </Stack>
