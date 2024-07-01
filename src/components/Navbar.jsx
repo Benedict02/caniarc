@@ -67,6 +67,15 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
+                    to="/ColossalNotebook/bulletin"
+                    className="nav__link"
+                    translate="no"
+                  >
+                    Bulletin
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/ColossalNotebook/hierarchy"
                     className="nav__link"
                     translate="no"
@@ -82,15 +91,16 @@ const Navbar = () => {
                   <ul className="dropdown__menu">
                     <li>
                       <Link
-                        to="/ColossalNotebook/"
+                        to="https://docs.google.com/document/d/1UR3F3hwjIx_lqDIvbrpLeqV171Ce18N0YnwhKyqjh6g/edit?usp=sharing"
                         className="nav__link--dropdown"
+                        target="_blank"
                       >
-                        [let me cook] BenHal's book of brainrot
+                        BenHal's book of self improvement
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/ColossalNotebook/lol"
+                        to="/ColossalNotebook/bro-imaginebeingdownbad"
                         className="nav__link--dropdown"
                         translate="no"
                       >
