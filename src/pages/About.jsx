@@ -21,14 +21,21 @@ const About = () => {
   const [openBiology, setOpenBiology] = useState(false);
 
   const handleClickChips = () => {
-    setOpenChips(!openChips);
+    if (openPhysics == true && openChips == false) {
+      setOpenChips(!openChips);
+      setOpenPhysics(!openPhysics);
+    } else {
+      setOpenChips(!openChips);
+    }
   };
 
   const handleClickPhysics = () => {
-    setOpenPhysics(!openPhysics);
-  };
-  const handleClickBiology = () => {
-    setOpenBiology(!openBiology);
+    if (openPhysics == false && openChips == true) {
+      setOpenPhysics(!openPhysics);
+      setOpenChips(!openChips);
+    } else {
+      setOpenPhysics(!openPhysics);
+    }
   };
 
   return (
@@ -163,7 +170,7 @@ const About = () => {
                   <HieGene
                     link=""
                     chip="A"
-                    title="Bagi makhluk ambis berat g ketolong, anda bisa mendapatkan ilmu lbh duluan dari sekolah melalui ini web kek bocoran gt saat yg lain berlibur & istirahat"
+                    title="Bagi makhluk ambis berat g ketolong, anda bisa mendapatkan ilmu lbh duluan dari sekolah melalui ini web kek bocoran modul gt saat yg lain berlibur & istirahat"
                   />
                 </List>
               </Collapse>

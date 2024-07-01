@@ -20,14 +20,38 @@ const Hierarchy = () => {
   const BenHalWA = "+62818588589";
 
   const handleClickMath = () => {
-    setOpenMath(!openMath);
+    if ((!openMath && openPhysics) || (!openMath && openBiology)) {
+      setOpenPhysics(false);
+      setOpenMath(!openMath);
+      setOpenBiology(false);
+    } else {
+      setOpenPhysics(false);
+      setOpenMath(!openMath);
+      setOpenBiology(false);
+    }
   };
 
   const handleClickPhysics = () => {
-    setOpenPhysics(!openPhysics);
+    if ((!openPhysics && openMath) || (!openPhysics && openBiology)) {
+      setOpenMath(false);
+      setOpenPhysics(!openPhysics);
+      setOpenBiology(false);
+    } else {
+      setOpenMath(false);
+      setOpenPhysics(!openPhysics);
+      setOpenBiology(false);
+    }
   };
   const handleClickBiology = () => {
-    setOpenBiology(!openBiology);
+    if ((!openBiology && openMath) || (!openBiology && openPhysics)) {
+      setOpenMath(false);
+      setOpenBiology(!openBiology);
+      setOpenPhysics(false);
+    } else {
+      setOpenMath(false);
+      setOpenBiology(!openBiology);
+      setOpenPhysics(false);
+    }
   };
 
   return (
@@ -62,7 +86,6 @@ const Hierarchy = () => {
                   borderBottom: "1px dotted #ccc",
                   textIndent: "25px",
                   height: "auto",
-                  textTransform: "capitalize",
                 }}
                 onClick={handleClickMath}
               >
@@ -119,7 +142,7 @@ const Hierarchy = () => {
                     link="https://drive.google.com/file/d/1ng76-zmVoIBI6uxG0beKLSc-8RYuD9sD/view?usp=sharing"
                     color="info"
                     chip="Latihan Soal"
-                    title="[Trigonometry] Latihan Soal Aturan Sinus Cosinus"
+                    title="[Trigonometry] Latihan Soal Aturan Sinus, Cosinus, Luas Segitiga"
                   />
 
                   {/* Go continue trigono this is a little divider for matrix(kls 11) */}

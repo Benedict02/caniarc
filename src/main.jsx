@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Hierarchy from "./pages/Hierarchy";
+import Bulletin from "./pages/Bulletin.jsx";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
