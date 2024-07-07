@@ -64,6 +64,9 @@ const Hierarchy = () => {
               sx={{
                 display: "flex",
                 justifyContent: "center",
+                fontFamily: "Outfit",
+                textTransform: "uppercase",
+                fontWeight: "600",
               }}
             >
               Hierarchy

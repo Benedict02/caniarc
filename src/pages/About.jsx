@@ -8,7 +8,6 @@ import {
   Collapse,
 } from "@mui/material";
 import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
-import CoronavirusIcon from "@mui/icons-material/Coronavirus";
 import HelpIcon from "@mui/icons-material/Help";
 import { useState } from "react";
 import HieGene from "../components/HieGene";
@@ -18,7 +17,6 @@ import HieGene from "../components/HieGene";
 const About = () => {
   const [openChips, setOpenChips] = useState(false);
   const [openPhysics, setOpenPhysics] = useState(false);
-  const [openBiology, setOpenBiology] = useState(false);
 
   const handleClickChips = () => {
     if (openPhysics == true && openChips == false) {
@@ -48,6 +46,9 @@ const About = () => {
               sx={{
                 display: "flex",
                 justifyContent: "center",
+                fontFamily: "Outfit",
+                textTransform: "uppercase",
+                fontWeight: "600",
               }}
             >
               About

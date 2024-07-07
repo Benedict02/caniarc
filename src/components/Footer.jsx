@@ -7,7 +7,7 @@ const Footer = () => {
         sx={{
           display: "grid",
           background: "var(--third-color)",
-          position: "block",
+          position: "relative",
           color: "var(--dark-color)",
           padding: "2em",
         }}
@@ -21,16 +21,16 @@ const Footer = () => {
           </Typography>
           <Typography>
             Bagi anda yang memiliki keinginan untuk menyontek, kami himbau untuk
-            mengangkat kaki dari Kolese Kanisius gausah sekolah aja sekalian,
+            mengangkat kaki dari Kolese Kanisius. Gausah sekolah aja sekalian,
             sebab anda adalah kegagalan yang mengecewakan. AMDG
           </Typography>
         </Stack>
         <Stack>
           <Typography>Best Regards, BenHal.</Typography>
         </Stack>
-        <Stack sx={{ color: "green" }}>
-          //wahai para sepuh CSS; ajarin pls, gw g mahir design web responsive.
-          (klo ajarannya gacor gw traktir eledrink)
+        <Stack sx={{ color: "maroon" }}>
+          //wahai para sepuh CSS; ajarin pls, gw g mahir responsive web. (klo
+          ajarannya gacor, gw traktir eledrink 1)
         </Stack>
       </Stack>
     </>
