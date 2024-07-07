@@ -8,7 +8,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: transparent;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 ul {

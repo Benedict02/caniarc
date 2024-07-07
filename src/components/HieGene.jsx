@@ -43,7 +43,7 @@ const HieGene = (props) => {
                 icon={<NewReleasesIcon color="white" />}
                 label={props.chip}
                 sx={{
-                  ml: 10,
+                  ml: 4,
                   backgroundColor: palette.syllabus,
                   color: "white",
                   fontWeight: "800",
@@ -53,7 +53,7 @@ const HieGene = (props) => {
               <Chip
                 label={props.chip}
                 sx={{
-                  ml: 10,
+                  ml: 4,
                   fontWeight: "800",
                 }}
               />
@@ -62,7 +62,7 @@ const HieGene = (props) => {
                 avatar={<Avatar alt="BenHal" src="./logo.svg" />}
                 label={props.chip}
                 sx={{
-                  ml: 10,
+                  ml: 4,
                   backgroundColor: palette.benhal,
                   color: "maroon",
                   fontWeight: "650",
@@ -73,7 +73,7 @@ const HieGene = (props) => {
                 icon={<GradeIcon color="white" />}
                 label={props.chip}
                 sx={{
-                  ml: 10,
+                  ml: 4,
                   backgroundColor: palette.gabrio,
                   color: "white",
                   fontWeight: "650",
@@ -84,14 +84,14 @@ const HieGene = (props) => {
                 icon={<CheckCircleIcon color="white" />}
                 label={props.chip}
                 sx={{
-                  ml: 10,
+                  ml: 4,
                   backgroundColor: palette.notebank,
                   color: "white",
                   fontWeight: "650",
                 }}
               />
             ) : (
-              <Chip label={props.chip} color={props.color} sx={{ ml: 10 }} />
+              <Chip label={props.chip} color={props.color} sx={{ ml: 4 }} />
             )}
           </ListItemIcon>
 

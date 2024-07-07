@@ -5,7 +5,6 @@ import "./index.css";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Hierarchy from "./pages/Hierarchy";
 import Bulletin from "./pages/Bulletin.jsx";
@@ -19,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/ColossalNotebook/", element: <Home /> },
       { path: "/ColossalNotebook/about", element: <About /> },
-      { path: "/ColossalNotebook/contact", element: <Contact /> },
+      { path: "/ColossalNotebook/bulletin", element: <Bulletin /> },
       { path: "/ColossalNotebook/hierarchy", element: <Hierarchy /> },
       { path: "/ColossalNotebook/*", element: <NoPage /> },
     ],
