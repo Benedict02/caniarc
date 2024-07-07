@@ -13,7 +13,7 @@ const Home = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            minHeight: "50vh",
+            minHeight: "80vh",
           }}
         >
           <Stack spacing={2}>
@@ -39,7 +39,6 @@ const Home = () => {
                     height: "4vh",
                     textDecoration: "none",
                     display: "flex",
-                    width: "10vw",
                     color: "var(--dark-color)",
                     justifyContent: "center",
                     alignItems: "center",
@@ -66,7 +65,6 @@ const Home = () => {
                     textDecoration: "none",
                     color: "var(--dark-color)",
                     display: "flex",
-                    width: "10vw",
                     justifyContent: "space-evenly",
                     alignItems: "center",
                   }}

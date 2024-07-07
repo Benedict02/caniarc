@@ -5,11 +5,11 @@ const Footer = () => {
     <>
       <Stack
         sx={{
-          display: "grid",
           background: "var(--third-color)",
           position: "relative",
           color: "var(--dark-color)",
           padding: "2em",
+          bottom: 0,
         }}
       >
         <Stack>
