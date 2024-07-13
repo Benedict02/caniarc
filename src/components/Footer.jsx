@@ -29,8 +29,8 @@ const Footer = () => {
           <Typography>Best Regards, BenHal.</Typography>
         </Stack>
         <Stack sx={{ color: "maroon" }}>
-          //wahai para sepuh CSS; ajarin pls, gw g mahir responsive web. (klo
-          ajarannya gacor, gw traktir eledrink 1)
+          //This is a "live" notebook. It will be constantly updated from time
+          to time.
         </Stack>
       </Stack>
     </>
