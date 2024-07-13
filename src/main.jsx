@@ -6,7 +6,8 @@ import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
-import Hierarchy from "./pages/Hierarchy";
+import Notebook from "./pages/Notebook.jsx";
+import NonAka from "./pages/NonAka.jsx";
 import Bulletin from "./pages/Bulletin.jsx";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
       { path: "/ColossalNotebook/", element: <Home /> },
       { path: "/ColossalNotebook/about", element: <About /> },
       { path: "/ColossalNotebook/bulletin", element: <Bulletin /> },
-      { path: "/ColossalNotebook/hierarchy", element: <Hierarchy /> },
+      { path: "/ColossalNotebook/notebook", element: <Notebook /> },
+      { path: "/ColossalNotebook/non-aka", element: <NonAka /> },
       { path: "/ColossalNotebook/*", element: <NoPage /> },
     ],
   },
