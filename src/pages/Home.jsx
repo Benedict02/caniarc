@@ -18,7 +18,7 @@ const Home = () => {
         >
           <Stack spacing={2}>
             <Typography variant="h1" className="title__header">
-              ColossalNotebook
+              Colossal Notebook
             </Typography>
             <Typography variant="h3">
               (Stu)dying <mark className="title__marquee">simplified.</mark>
