@@ -60,7 +60,7 @@ const Home = () => {
               >
                 {/* FIXME: Buttons look like shit */}
                 <Link
-                  to="/ColossalNotebook/hierarchy"
+                  to="/ColossalNotebook/notebook"
                   style={{
                     textDecoration: "none",
                     color: "var(--dark-color)",
