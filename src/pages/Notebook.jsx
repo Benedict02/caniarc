@@ -440,7 +440,7 @@ const Notebook = () => {
               <Collapse in={openBiology} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program biologi"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -463,7 +463,7 @@ const Notebook = () => {
               <Collapse in={openHistory} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program sejarah"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -486,7 +486,7 @@ const Notebook = () => {
               <Collapse in={openChemistry} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program kimia"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -509,7 +509,7 @@ const Notebook = () => {
               <Collapse in={openGeography} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program geografi"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -532,7 +532,7 @@ const Notebook = () => {
               <Collapse in={openEnglish} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program english"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -555,7 +555,7 @@ const Notebook = () => {
               <Collapse in={openIndonesian} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program indonesia"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -578,7 +578,7 @@ const Notebook = () => {
               <Collapse in={openSociology} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program sosiologi"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -601,7 +601,7 @@ const Notebook = () => {
               <Collapse in={openInformatics} timeout="auto" unmountOnExit>
                 <HieGene
                   title="Learning program informatika"
-                  link="/"
+                  link=""
                   chip="pending"
                 />
               </Collapse>
@@ -622,11 +622,7 @@ const Notebook = () => {
                 <ListItemText primary="PPKn" />
               </ListItemButton>
               <Collapse in={openPPKn} timeout="auto" unmountOnExit>
-                <HieGene
-                  title="Learning program PPKn"
-                  link="/"
-                  chip="pending"
-                />
+                <HieGene title="Learning program PPKn" link="" chip="pending" />
               </Collapse>
             </List>
           </Stack>
