@@ -4,7 +4,7 @@ const Bulletin = () => {
   return (
     <>
       <Stack className="torso">
-        <Stack sx={{ width: "90vw", height: "60vh" }}>
+        <Stack sx={{ width: "90vw", height: "100%" }}>
           <Stack>
             <Typography
               variant="h2"
@@ -16,7 +16,7 @@ const Bulletin = () => {
                 fontWeight: "600",
               }}
             >
-              Bulletin
+              Bulletin(WIP)
             </Typography>
           </Stack>
         </Stack>

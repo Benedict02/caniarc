@@ -76,11 +76,20 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/ColossalNotebook/hierarchy"
+                    to="/ColossalNotebook/Notebook"
                     className="nav__link"
                     translate="no"
                   >
-                    Hierarchy
+                    Notebook
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/ColossalNotebook/Notebook"
+                    className="nav__link"
+                    translate="no"
+                  >
+                    Non Aka
                   </Link>
                 </li>
                 <li className="dropdown__item">

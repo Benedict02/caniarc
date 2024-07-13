@@ -1,3 +1,4 @@
+// WIP
 import {
   Stack,
   Typography,
@@ -12,9 +13,9 @@ import HelpIcon from "@mui/icons-material/Help";
 import { useState } from "react";
 import HieGene from "../components/HieGene";
 
-//I want to add chip filter thingy for the authors of the notes. So when people want to get gabrio's catatan they can just go to about and select the gabrio
+//I want to add chip filter thingy for the authors of the notes. So when people want to get gabrio's catatan they can just go to NonAka and select the gabrio
 
-const About = () => {
+const NonAka = () => {
   const [openChips, setOpenChips] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(false);
 
@@ -49,7 +50,7 @@ const About = () => {
                 fontWeight: "600",
               }}
             >
-              About
+              NonAka (WIP)
             </Typography>
           </Stack>
           <Stack sx={{ marginBottom: "35vh" }}>
@@ -267,29 +268,29 @@ const About = () => {
   );
 };
 
-export default About;
+export default NonAka;
 
 /*
-              <ListItemButton
-                sx={{
-                  listStyle: "none",
-                  borderBottom: "1px dotted #ccc",
-                  textIndent: "25px",
-                  height: "auto",
-                  textTransform: "capitalize",
-                }}
-                onClick={handleClickBiology}
-              >
-                <ListItemIcon>
-                  <CoronavirusIcon />
-                </ListItemIcon>
-                <ListItemText primary="Biology" />
-              </ListItemButton>
-              <Collapse in={openBiology} timeout="auto" unmountOnExit>
-                <HieGene
-                  color="primary"
-                  title="Lorem Ipsum Dolor sit amet"
-                  link="/"
-                  chip="pending"
-                />
-              </Collapse> */
+                <ListItemButton
+                  sx={{
+                    listStyle: "none",
+                    borderBottom: "1px dotted #ccc",
+                    textIndent: "25px",
+                    height: "auto",
+                    textTransform: "capitalize",
+                  }}
+                  onClick={handleClickBiology}
+                >
+                  <ListItemIcon>
+                    <CoronavirusIcon />
+                  </ListItemIcon>
+                  <ListItemText primary="Biology" />
+                </ListItemButton>
+                <Collapse in={openBiology} timeout="auto" unmountOnExit>
+                  <HieGene
+                    color="primary"
+                    title="Lorem Ipsum Dolor sit amet"
+                    link="/"
+                    chip="pending"
+                  />
+                </Collapse> */

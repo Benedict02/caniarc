@@ -22,7 +22,7 @@ import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import { useState } from "react";
 import HieGene from "../components/HieGene";
 
-const Hierarchy = () => {
+const Notebook = () => {
   const [openCompulsoryMath, setOpenCompulsoryMath] = useState(false);
   const [openElectiveMath, setOpenElectiveMath] = useState(false);
   const [openPhysics, setOpenPhysics] = useState(false);
@@ -270,7 +270,7 @@ const Hierarchy = () => {
                 fontWeight: "600",
               }}
             >
-              Hierarchy
+              Notebook
             </Typography>
           </Stack>
           <Stack>
@@ -649,4 +649,4 @@ const Hierarchy = () => {
   );
 };
 
-export default Hierarchy;
+export default Notebook;
