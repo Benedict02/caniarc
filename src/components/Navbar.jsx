@@ -109,11 +109,20 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
+                        to="/ColossalNotebook/akacalc"
+                        className="nav__link--dropdown"
+                        translate="no"
+                      >
+                        Academics Calculator
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
                         to="/ColossalNotebook/bro-imaginebeingdownbad"
                         className="nav__link--dropdown"
                         translate="no"
                       >
-                        World's most eloquent 404 Page
+                        404 page (ngl it's kinda fire)
                       </Link>
                     </li>
                   </ul>

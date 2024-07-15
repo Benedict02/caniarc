@@ -9,6 +9,7 @@ import NoPage from "./pages/NoPage";
 import Notebook from "./pages/Notebook.jsx";
 import NonAka from "./pages/NonAka.jsx";
 import Bulletin from "./pages/Bulletin.jsx";
+import Akacalc from "./pages/Akacalc.jsx";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/ColossalNotebook/bulletin", element: <Bulletin /> },
       { path: "/ColossalNotebook/notebook", element: <Notebook /> },
       { path: "/ColossalNotebook/non-aka", element: <NonAka /> },
+      { path: "/ColossalNotebook/akacalc", element: <Akacalc /> },
       { path: "/ColossalNotebook/*", element: <NoPage /> },
     ],
   },
