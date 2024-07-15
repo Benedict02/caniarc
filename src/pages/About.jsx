@@ -9,14 +9,14 @@ import {
 } from "@mui/material";
 import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
 import HelpIcon from "@mui/icons-material/Help";
+import CelebrationIcon from "@mui/icons-material/Celebration";
 import { useState } from "react";
 import HieGene from "../components/HieGene";
-
-//I want to add chip filter thingy for the authors of the notes. So when people want to get gabrio's catatan they can just go to about and select the gabrio
 
 const About = () => {
   const [openChips, setOpenChips] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(false);
+  const [openCredits, setOpenCredits] = useState(false);
 
   const benHalWA = "+62818588589";
   const gabrioWA = "+628175188188";
@@ -27,11 +27,15 @@ const About = () => {
   };
 
   const handleClickChips = () => {
-    handleToggle(openChips, setOpenChips, setOpenFAQ);
+    handleToggle(openChips, setOpenChips, setOpenFAQ, setOpenCredits);
   };
 
   const handleClickFAQ = () => {
-    handleToggle(openFAQ, setOpenFAQ, setOpenChips);
+    handleToggle(openFAQ, setOpenFAQ, setOpenChips, setOpenCredits);
+  };
+
+  const handleClickCredits = () => {
+    handleToggle(openCredits, setOpenCredits, setOpenChips, setOpenFAQ);
   };
 
   return (
@@ -52,7 +56,7 @@ const About = () => {
               About
             </Typography>
           </Stack>
-          <Stack sx={{ marginBottom: "35vh" }}>
+          <Stack sx={{ marginBottom: "50vh" }}>
             <List
               sx={{
                 color: "var(--dark-color)",
@@ -174,33 +178,8 @@ const About = () => {
                   />
                 </List>
               </Collapse>
-              {/*  */}
-              <ListItemButton
-                sx={{
-                  listStyle: "none",
-                  borderBottom: "1px dotted #ccc",
-                  textIndent: "25px",
-                  height: "auto",
-                  textTransform: "capitalize",
-                }}
-                onClick={handleClickFAQ}
-              >
-                <ListItemIcon>
-                  <HelpIcon />
-                </ListItemIcon>
-                <ListItemText primary="Credits" />
-              </ListItemButton>
-              <Collapse in={openFAQ} timeout="auto" unmountOnExit>
-                <List disablePadding>
-                  <HieGene
-                    link=""
-                    chip=""
-                    title="Bagi makhluk ambis berat g ketolong, anda bisa mendapatkan ilmu lbh duluan dari sekolah melalui ini web kek bocoran modul gt saat yg lain berlibur & istirahat"
-                  />
-                </List>
-              </Collapse>
 
-              <ListItemButton
+              {/* <ListItemButton
                 sx={{
                   listStyle: "none",
                   borderBottom: "1px dotted #ccc",
@@ -258,7 +237,7 @@ const About = () => {
                     title="Bagi makhluk ambis berat g ketolong, anda bisa mendapatkan ilmu lbh duluan dari sekolah melalui ini web kek bocoran modul gt saat yg lain berlibur & istirahat"
                   />
                 </List>
-              </Collapse>
+              </Collapse> */}
             </List>
           </Stack>
         </Stack>
