@@ -113,16 +113,16 @@ const Navbar = () => {
                         className="nav__link--dropdown"
                         translate="no"
                       >
-                        Academics Calculator
+                        Academic Calculator
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/ColossalNotebook/bro-imaginebeingdownbad"
+                        to="/ColossalNotebook/archive"
                         className="nav__link--dropdown"
                         translate="no"
                       >
-                        404 page (ngl it's kinda fire)
+                        Archive Pertemuan
                       </Link>
                     </li>
                   </ul>
