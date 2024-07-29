@@ -8,6 +8,7 @@ In essence, this is a repository containing school materials & notes, in collabo
 
 - [@Benedict02](https://www.github.com/Benedict02)
 - Gabrio Manuel Kapuangan
+- Vincent Benedict Tjoeng
 
 ## FAQ
 
