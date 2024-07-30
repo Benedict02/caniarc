@@ -74,3 +74,4 @@ If you find this useful, help fund this project(give me money)!
 
 - [@44120N](https://www.github.com/44120N) : Mentor + Materials + Design Reference
 - Aric : Modul matematika perminatan kelas X (TA. 2021-2022) + Modul Matematika Wajib Kelas X IPA Dan IPS (2021-2022)
+- Asita : Rangkuman Virus
