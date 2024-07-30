@@ -408,7 +408,7 @@ const Notebook = () => {
                 {/* I want component="li" because of the notebook background */}
                 <List disablePadding>
                   <HieGene
-                    link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
+                    link=""
                     chip="Pending"
                     title="Learning program Fisika"
                   />
@@ -417,6 +417,12 @@ const Notebook = () => {
                     color="warning"
                     chip="Module Kelas X"
                     title="MODUL PEMBELAJARAN FISIKA KELAS X SMA KANISIUS"
+                  />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1N47utKgbBNqAEuwDxYeaYUJ4JrXZtt_o/view?usp=sharing"
+                    color="warning"
+                    chip="Module Kelas X"
+                    title="[Uji dimensi] Fisika X Besaran dan Pengukuran"
                   />
                 </List>
               </Collapse>
@@ -442,6 +448,16 @@ const Notebook = () => {
                   title="Learning program biologi"
                   link=""
                   chip="pending"
+                />
+                <HieGene
+                  title="Sebenarnya, Virus itu sederhana."
+                  link="https://docs.google.com/document/d/16IveZImGC09vvBYiS1lRA0JC5FGco5OiruNpJpUrhMs/edit?usp=sharing"
+                  chip="Notebank"
+                />
+                <HieGene
+                  title="Rangkuman Virus (detailed)"
+                  link="https://drive.google.com/file/d/1DWKvCn7m-PO9BBDdtHMsGpyyFIeTp1Lw/view?usp=sharing"
+                  chip="Asita"
                 />
               </Collapse>
 

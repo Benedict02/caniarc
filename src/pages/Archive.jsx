@@ -354,16 +354,16 @@ const Archive = () => {
                 <ListItemIcon>
                   <FlightTakeoffIcon />
                 </ListItemIcon>
-                <ListItemText primary="..." />
+                <ListItemText primary="Sejarah Pak Jalu" />
                 {/* TODO: go do some icon alchemy shit check https://mui.com/material-ui/react-list/ at the nested list part */}
               </ListItemButton>
               <Collapse in={openPhysics} timeout="auto" unmountOnExit>
                 {/* I want component="li" because of the Archive background */}
                 <List disablePadding>
                   <HieGene
-                    link="https://drive.google.com/file/d/1a3hnt0Sdho0o9CLmpRzn1zJeZwoyZn3v/view?usp=sharing"
-                    chip="Pending"
-                    title="..."
+                    link="https://drive.google.com/file/d/1Ou6jzfSDThmYOW_lfgf51_j2Z6TdqmI3/view?usp=sharing"
+                    chip="Pertemuan 1"
+                    title="Introduction, Learning program, Kalender akademik sejarah"
                   />
                 </List>
               </Collapse>
