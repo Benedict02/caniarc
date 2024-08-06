@@ -18,10 +18,10 @@ const Home = () => {
         >
           <Stack spacing={2}>
             <Typography variant="h1" className="title__header">
-              Colossal Notebook
+              Academic Resource Center
             </Typography>
             <Typography variant="h3">
-              (Stu)dying <mark className="title__marquee">simplified.</mark>
+              Studying <mark className="title__marquee">simplified.</mark>
             </Typography>
             <Stack
               sx={{
