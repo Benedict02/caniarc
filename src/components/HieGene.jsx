@@ -9,6 +9,7 @@ import {
 import GradeIcon from "@mui/icons-material/Grade";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import NewReleasesIcon from "@mui/icons-material/NewReleases";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 // Note to future self: DO NOT REPEAT JS CODE. IF U FEEL THAT YOU'VE SPAMMED COPY PASTE AND THE CODE IS LONG:
 // GO MAKE A SEPERATE FILE AS A GENERATOR THING BCS ITS D.R.Y. (DONT REPEAT YOURSELF)
 
@@ -17,6 +18,7 @@ const palette = {
   benhal: "wheat",
   gabrio: "#FF5733",
   notebank: "#3246a8",
+  youtube: "#CD201F",
 };
 
 const HieGene = (props) => {
@@ -91,6 +93,17 @@ const HieGene = (props) => {
                     fontWeight: "650",
                   }}
                 />
+              ) : props.chip == "Pembahasan" ? (
+                <Chip
+                  icon={<YouTubeIcon color="white" />}
+                  label={props.chip}
+                  sx={{
+                    ml: 4,
+                    backgroundColor: palette.youtube,
+                    color: "white",
+                    fontWeight: "650",
+                  }}
+                />
               ) : (
                 <Chip label={props.chip} color={props.color} sx={{ ml: 4 }} />
               )}
@@ -152,13 +165,13 @@ const HieGene = (props) => {
                   fontWeight: "650",
                 }}
               />
-            ) : props.chip == "Notebank" ? (
+            ) : props.chip == "Pembahasan" ? (
               <Chip
-                icon={<CheckCircleIcon color="white" />}
+                icon={<YouTubeIcon color="white" />}
                 label={props.chip}
                 sx={{
                   ml: 4,
-                  backgroundColor: palette.notebank,
+                  backgroundColor: palette.youtube,
                   color: "white",
                   fontWeight: "650",
                 }}

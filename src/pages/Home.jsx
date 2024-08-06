@@ -21,7 +21,8 @@ const Home = () => {
               Academic Resource Center
             </Typography>
             <Typography variant="h3">
-              Studying <mark className="title__marquee">simplified.</mark>
+              Exclusively tailored for{" "}
+              <mark className="title__marquee">canisians.</mark>
             </Typography>
             <Stack
               sx={{
@@ -34,7 +35,7 @@ const Home = () => {
             >
               <Button variant="outlined" sx={{ borderRadius: "32px" }}>
                 <Link
-                  to="/ColossalNotebook/about"
+                  to="/caniarc/about"
                   style={{
                     height: "4vh",
                     textDecoration: "none",
@@ -60,7 +61,7 @@ const Home = () => {
               >
                 {/* FIXME: Buttons look like shit */}
                 <Link
-                  to="/ColossalNotebook/notebook"
+                  to="/caniarc/notebook"
                   style={{
                     textDecoration: "none",
                     color: "var(--dark-color)",

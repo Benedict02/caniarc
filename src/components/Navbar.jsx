@@ -36,9 +36,9 @@ const Navbar = () => {
         <header ref={navRef} className="header">
           <nav className="nav container">
             <div className="nav__data">
-              <Link to="/ColossalNotebook/" className="nav__logo">
+              <Link to="/caniarc/" className="nav__logo">
                 <SentimentDissatisfiedIcon />
-                Colossal Notebook
+                CaniARC
               </Link>
               <div className="nav__toggle" id="nav-toggle" ref={burgerRef}>
                 <i className="ri-menu-line nav__burger"></i>
@@ -48,17 +48,13 @@ const Navbar = () => {
             <div className="nav__menu" id="nav-menu" ref={menuRef}>
               <ul className="nav__list">
                 <li>
-                  <Link
-                    to="/ColossalNotebook/"
-                    className="nav__link"
-                    translate="no"
-                  >
+                  <Link to="/caniarc/" className="nav__link" translate="no">
                     Home
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/ColossalNotebook/about"
+                    to="/caniarc/about"
                     className="nav__link"
                     translate="no"
                   >
@@ -67,7 +63,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/ColossalNotebook/bulletin"
+                    to="/caniarc/bulletin"
                     className="nav__link"
                     translate="no"
                   >
@@ -76,7 +72,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/ColossalNotebook/Notebook"
+                    to="/caniarc/Notebook"
                     className="nav__link"
                     translate="no"
                   >
@@ -85,7 +81,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/ColossalNotebook/Notebook"
+                    to="/caniarc/Notebook"
                     className="nav__link"
                     translate="no"
                   >
@@ -109,7 +105,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        to="/ColossalNotebook/akacalc"
+                        to="/caniarc/akacalc"
                         className="nav__link--dropdown"
                         translate="no"
                       >
@@ -118,7 +114,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        to="/ColossalNotebook/archive"
+                        to="/caniarc/archive"
                         className="nav__link--dropdown"
                         translate="no"
                       >
