@@ -1,8 +1,8 @@
-# Colossal Notebook
+# Cani-ARC (Canisius Academic Resource Center)
 
-In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT in creating divine notes).
+In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(the GOAT). Exclusively tailored for Canisians. This project is also approved and sponsored(kind of) by The Deputy Director 2 for Curriculum of Canisius College.
 
-`https://benedict02.github.io/ColossalNotebook/`
+`https://benedict02.github.io/caniarc/`
 
 ## Authors
 
