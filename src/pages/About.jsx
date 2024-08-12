@@ -115,6 +115,11 @@ const About = () => {
                     chip="Latihan Soal"
                     title="Latsol biasa. Jawaban ada di bawah biasanya(semoga gw inget utk masukin)."
                   />
+                  <HieGene
+                    link=""
+                    chip="Pembahasan"
+                    title="Video pembahasan soal/ulangan yang sudah lewat di youtube"
+                  />
                 </List>
               </Collapse>
 

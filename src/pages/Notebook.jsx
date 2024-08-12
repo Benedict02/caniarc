@@ -321,6 +321,11 @@ const Notebook = () => {
                     title="[Trigonometry] Modul Trigono CC"
                   />
                   <HieGene
+                    link="https://drive.google.com/file/d/1GnZGpWiz8JwS9Mh_DFUmEqt95Q9o3di6/view?usp=sharing"
+                    chip="Pembahasan"
+                    title="[Trigonometry] Playlist (work in progress)"
+                  />
+                  <HieGene
                     link="https://drive.google.com/file/d/1gTE1jGRdi5wj7cFzngB4qqMDD-yf2Ipk/view?usp=sharing"
                     chip="BenHal"
                     title="[Trigonometry] #1 Introduction"

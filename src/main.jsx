@@ -16,17 +16,17 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/ColossalNotebook/",
+    path: "/caniarc/",
     element: <App />,
     children: [
-      { path: "/ColossalNotebook/", element: <Home /> },
-      { path: "/ColossalNotebook/about", element: <About /> },
-      { path: "/ColossalNotebook/bulletin", element: <Bulletin /> },
-      { path: "/ColossalNotebook/notebook", element: <Notebook /> },
-      { path: "/ColossalNotebook/non-aka", element: <NonAka /> },
-      { path: "/ColossalNotebook/akacalc", element: <Akacalc /> },
-      { path: "/ColossalNotebook/archive", element: <Archive /> },
-      { path: "/ColossalNotebook/*", element: <NoPage /> },
+      { path: "/caniarc/", element: <Home /> },
+      { path: "/caniarc/about", element: <About /> },
+      { path: "/caniarc/bulletin", element: <Bulletin /> },
+      { path: "/caniarc/notebook", element: <Notebook /> },
+      { path: "/caniarc/non-aka", element: <NonAka /> },
+      { path: "/caniarc/akacalc", element: <Akacalc /> },
+      { path: "/caniarc/archive", element: <Archive /> },
+      { path: "/caniarc/*", element: <NoPage /> },
     ],
   },
 ]);
