@@ -348,6 +348,13 @@ const Notebook = () => {
                     title="[Trigonometry] Aturan Sinus, Cosinus, Luas"
                   />
 
+                  <HieGene
+                    link="https://drive.google.com/file/d/17UlP1CUeVfFwyL_43qSyXTl8g13xSQjP/view?usp=sharing"
+                    color="info"
+                    chip="Latihan Soal"
+                    title="[PLSV/PTLSV] Soal Latihan 2 (MAT 7, 8) + Kunci"
+                  />
+
                   {/* Go continue trigono this is a little divider for matrix(kls 11) */}
                   <HieGene
                     link="https://docs.google.com/document/d/1J7SXECsV4tbBkGXYjuUDXf5yaLIeWp4n3A34srADdZk/edit?usp=sharing"
@@ -389,6 +396,7 @@ const Notebook = () => {
                     chip="Module Kelas X"
                     title="Matematika Peminatan Kelas X  (T.A. 2021-2022)"
                   />
+                  <HieGene link="" chip="WIP" title="Persamaan exponen" />
                 </List>
               </Collapse>
 

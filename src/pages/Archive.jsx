@@ -337,6 +337,11 @@ const Archive = () => {
                     chip="Pertemuan 1"
                     title="Introduction besaran suhu dimensi, hal yang akan dipelajari"
                   />
+                  <HieGene
+                    link="https://drive.google.com/file/d/1eWYj5UmF2PA8oljScppp5oH5UxQKEdie/view?usp=sharing"
+                    chip="Pertemuan 2"
+                    title="Uji dimensi dan gunanya"
+                  />
                 </List>
               </Collapse>
 
