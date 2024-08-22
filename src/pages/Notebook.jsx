@@ -397,6 +397,27 @@ const Notebook = () => {
                     title="Matematika Peminatan Kelas X  (T.A. 2021-2022)"
                   />
                   <HieGene link="" chip="WIP" title="Persamaan exponen" />
+
+                  <HieGene
+                    link="https://drive.google.com/file/d/1udzBJSkH5aRnX7NVcZ8R3SyZluPOdSYm/view?usp=sharing"
+                    color="info"
+                    chip="Latihan Soal"
+                    title="[Eksponen & Logaritma] Soal Latihan 1 (Bu ari) + Kunci"
+                  />
+
+                  <HieGene
+                    link="https://drive.google.com/file/d/1j5REzvqxOs16ekx9tCNq6PIzQ-X_L-a0/view?usp=sharing"
+                    color="info"
+                    chip="Latihan Soal"
+                    title="[Persamaan Eksponen & Logaritma] Soal Latihan 2 (Bu ari) + Kunci"
+                  />
+
+                  <HieGene
+                    link="https://drive.google.com/file/d/1vpYUZ2NtAmVmys3r3CZezI8EWJ1ap9NN/view?usp=sharing"
+                    color="info"
+                    chip="Latihan Soal"
+                    title="[Persamaan Eksponen & Logaritma] Soal Latihan 3 (Bu ari) + Kunci"
+                  />
                 </List>
               </Collapse>
 
