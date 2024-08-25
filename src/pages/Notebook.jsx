@@ -458,6 +458,16 @@ const Notebook = () => {
                     chip="Module Kelas X"
                     title="[Uji dimensi] Fisika X Besaran dan Pengukuran"
                   />
+                  <HieGene
+                    link="https://docs.google.com/spreadsheets/d/1hQII3zMN60cvKuSnLGyEx5nft9dFuGYbgNXOvkdhb0E/edit?usp=sharing"
+                    chip="Gabrio"
+                    title="[Besaran, Satuan, Uji dimensi] Tabel Sakti Besaran (Pak Mayo)"
+                  />
+                  <HieGene
+                    link="https://docs.google.com/document/d/1McdJEIG7VlnDQyC74kxq_nyF1BERK1Mjfl-V8AaO2Xo/edit?usp=sharing"
+                    chip="Gabrio"
+                    title="[Pengukuran] Catatan Fisika_Kelas X_Sem1 (Pak Agus)"
+                  />
                 </List>
               </Collapse>
 
@@ -673,6 +683,11 @@ const Notebook = () => {
               </ListItemButton>
               <Collapse in={openPPKn} timeout="auto" unmountOnExit>
                 <HieGene title="Learning program PPKn" link="" chip="pending" />
+                <HieGene
+                  title="[Hakikat bangsa dan Negara] Catatan PKn_Kelas X_Sem1"
+                  link="https://docs.google.com/document/d/1hI3hqMKomp7IvGVc8lST-h3Qnr2t_md-EaqZY2j5_YI/edit?usp=sharing"
+                  chip="Gabrio"
+                />
               </Collapse>
             </List>
           </Stack>
