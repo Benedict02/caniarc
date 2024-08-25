@@ -64,7 +64,7 @@ If you have any feedback, contact benedicthalim1@gmail.com
 
 ## 🔗 Links
 
-[Insert link to github pages here]
+https://benedict02.github.io/caniarc/
 
 If you find this useful, help fund this project(give me money)!
 
