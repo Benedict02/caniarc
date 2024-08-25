@@ -14,7 +14,7 @@ In essence, this is a repository containing school materials & notes, in collabo
 
 #### What is the purpose of this project?
 
-For us(the creators), this project is a means to sharpen our knowledge and abilities, especially in programming & academics. Also this project helps Benedict land a job as a programmer by building his github portfolio.
+For us(the creators), this project is a means to sharpen our knowledge and abilities, especially in programming & academics. Also this project helps Benedict land a job(hopefully) as a programmer by building his github portfolio.
 
 For users, this project is used to compound notes, summaries and practice questions from the internet and/or school for your convenience in obtaining magna cumlaude or above(depends on your dedication and hard work).
 
