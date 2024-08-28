@@ -21,12 +21,8 @@ const Footer = () => {
           </Typography>
           <Typography>
             Bagi anda yang memiliki keinginan untuk menyontek, kami himbau untuk
-            mengangkat kaki dari Kolese Kanisius. Gausah sekolah aja sekalian,
-            sebab anda adalah kegagalan yang mengecewakan. AMDG
+            mengangkat kaki dari Kolese Kanisius.
           </Typography>
-        </Stack>
-        <Stack>
-          <Typography>Best Regards, BenHal.</Typography>
         </Stack>
         <Stack sx={{ color: "maroon" }}>
           //This is a "live" notebook. It will be constantly updated from time
