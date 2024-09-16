@@ -44,7 +44,10 @@ We wish to integrate this project with canitutor in the future. Providing study 
 
 ## Features
 
-- Null (Not yet)
+- Main page
+- Login(WIP, The schedule in CC is hectic)
+- Admin panel: Authorize and check the quality of the notes(WIP)
+- Page for students to upload their own notes (WIP)
 
 ## Color Reference
 
