@@ -41,6 +41,8 @@ We wish to integrate this project with canitutor in the future. Providing study 
   from `<Link to="/about">`, add `<Link to="/ColossalNotebook/about">`
 
   aiya I spent 3 hours finding a solution to this issue 😭
+- [Pending] Broken mobile UI, especially in IOS devices
+  Yes, I have a massive skill issue when developing responsive websites. Just bear with it & wait until my schedule clears up.
 
 ## Features
 
