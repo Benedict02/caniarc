@@ -466,7 +466,7 @@ const Notebook = () => {
                   <HieGene
                     link="https://docs.google.com/document/d/1McdJEIG7VlnDQyC74kxq_nyF1BERK1Mjfl-V8AaO2Xo/edit?usp=sharing"
                     chip="Gabrio"
-                    title="[Pengukuran] Catatan Fisika_Kelas X_Sem1 (Pak Agus)"
+                    title="[Pengukuran] Catatan Fisika_Kelas X_Sem1 (Pak Agus)" 
                   />
                 </List>
               </Collapse>
