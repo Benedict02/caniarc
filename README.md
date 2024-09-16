@@ -1,19 +1,21 @@
-# Colossal Notebook
+# Cani-ARC (Canisius Academic Resource Center)
 
-In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(The GOAT in creating divine notes).
+In essence, this is a repository containing school materials & notes, in collaboration with Gabrio Manuel Kapuangan(the GOAT). Exclusively tailored for Canisians. This project is also approved and sponsored(kind of) by The Deputy Director 2 for Curriculum of Canisius College.
 
-`https://benedict02.github.io/ColossalNotebook/`
+`https://benedict02.github.io/caniarc/`
 
 ## Authors
 
 - [@Benedict02](https://www.github.com/Benedict02)
 - Gabrio Manuel Kapuangan
+- Vincent Benedict Tjoeng
+- Nathanael Ethan Santoso
 
 ## FAQ
 
 #### What is the purpose of this project?
 
-For us(the creators), this project is a means to sharpen our knowledge and abilities, especially in programming & academics. Also this project helps Benedict land a job as a programmer by building his github portfolio.
+For us(the creators), this project is a means to sharpen our knowledge and abilities, especially in programming & academics. Also this project helps Benedict land a job(hopefully) as a programmer by building his github portfolio.
 
 For users, this project is used to compound notes, summaries and practice questions from the internet and/or school for your convenience in obtaining magna cumlaude or above(depends on your dedication and hard work).
 
@@ -63,7 +65,7 @@ If you have any feedback, contact benedicthalim1@gmail.com
 
 ## 🔗 Links
 
-[Insert link to github pages here]
+https://benedict02.github.io/caniarc/
 
 If you find this useful, help fund this project(give me money)!
 
@@ -73,3 +75,4 @@ If you find this useful, help fund this project(give me money)!
 
 - [@44120N](https://www.github.com/44120N) : Mentor + Materials + Design Reference
 - Aric : Modul matematika perminatan kelas X (TA. 2021-2022) + Modul Matematika Wajib Kelas X IPA Dan IPS (2021-2022)
+- Asita : Rangkuman Virus

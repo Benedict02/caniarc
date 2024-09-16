@@ -229,7 +229,7 @@ const About = () => {
                   <HieGene
                     link=""
                     chip="A"
-                    title="Google Classroom terlalu berpusat pada guru. Ini lbh ke arah siswa jdi lbh flexible & lengkap(teorinya gt sih. gatau praktek kedepannya gmn)"
+                    title="Google Classroom terlalu berpusat pada guru. Ini lbh ke arah siswa jdi lbh flexible & personalized"
                   />
                   <HieGene
                     link=""
@@ -239,7 +239,7 @@ const About = () => {
                   <HieGene
                     link=""
                     chip="A"
-                    title="Bagi makhluk ambis berat g ketolong, anda bisa mendapatkan ilmu lbh duluan dari sekolah melalui ini web kek bocoran modul gt saat yg lain berlibur & istirahat"
+                    title="It supplements your learning experience. Biar semakin cepat & sederhana"
                   />
                 </List>
               </Collapse> */}

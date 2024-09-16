@@ -503,6 +503,11 @@ const Notebook = () => {
                   link="https://drive.google.com/file/d/1DWKvCn7m-PO9BBDdtHMsGpyyFIeTp1Lw/view?usp=sharing"
                   chip="Asita"
                 />
+                <HieGene
+                  title="Rangkuman Biologi"
+                  link="https://docs.google.com/document/d/1GAlZTBKLbUc5mrokSvu75OWAY5l5u2z2OtlLSqVPQmo/edit?usp=sharing"
+                  chip="Gabrio"
+                />
               </Collapse>
 
               <ListItemButton
@@ -548,6 +553,11 @@ const Notebook = () => {
                   title="Learning program kimia"
                   link=""
                   chip="pending"
+                />
+<HieGene
+                  title="Rangkuman Kimia"
+                  link="https://docs.google.com/document/d/1ds1mSj7ekBwEoh6bweu7NVE0NgEFCqIs5cTJfF9tI3Y/edit?usp=sharing"
+                  chip="Gabrio"
                 />
               </Collapse>
 
@@ -595,6 +605,11 @@ const Notebook = () => {
                   link=""
                   chip="pending"
                 />
+<HieGene
+                  title="Rangkuman English"
+                  link="https://docs.google.com/document/d/1cq917C7TPOOPAX_E2O4Ou5nXVmtCsC-fOkB9XmaN-No/edit?usp=sharing"
+                  chip="Gabrio"
+                />
               </Collapse>
 
               <ListItemButton
@@ -618,6 +633,11 @@ const Notebook = () => {
                   link=""
                   chip="pending"
                 />
+<HieGene
+                  title="Rangkuman Bahasa Indonesia"
+                  link="https://docs.google.com/document/d/1_qERTstN_FhEOigDPj7B9fR_Q8IRLNCIgb3yeIWO05Y/edit?usp=sharing"
+                  chip="Gabrio"
+                />
               </Collapse>
 
               <ListItemButton
@@ -640,6 +660,11 @@ const Notebook = () => {
                   title="Learning program sosiologi"
                   link=""
                   chip="pending"
+                />
+<HieGene
+                  title="Rangkuman Sosiologi"
+                  link="https://docs.google.com/document/d/1j29NoLPg4-cdn61GSQ_s6V0UUey0g85YBou4RZvgT7E/edit?usp=sharing"
+                  chip="Gabrio"
                 />
               </Collapse>
 
