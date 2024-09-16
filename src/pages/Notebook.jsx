@@ -554,7 +554,7 @@ const Notebook = () => {
                   link=""
                   chip="pending"
                 />
-<HieGene
+                <HieGene
                   title="Rangkuman Kimia"
                   link="https://docs.google.com/document/d/1ds1mSj7ekBwEoh6bweu7NVE0NgEFCqIs5cTJfF9tI3Y/edit?usp=sharing"
                   chip="Gabrio"
@@ -605,7 +605,7 @@ const Notebook = () => {
                   link=""
                   chip="pending"
                 />
-<HieGene
+                <HieGene
                   title="Rangkuman English"
                   link="https://docs.google.com/document/d/1cq917C7TPOOPAX_E2O4Ou5nXVmtCsC-fOkB9XmaN-No/edit?usp=sharing"
                   chip="Gabrio"
@@ -633,7 +633,7 @@ const Notebook = () => {
                   link=""
                   chip="pending"
                 />
-<HieGene
+                <HieGene
                   title="Rangkuman Bahasa Indonesia"
                   link="https://docs.google.com/document/d/1_qERTstN_FhEOigDPj7B9fR_Q8IRLNCIgb3yeIWO05Y/edit?usp=sharing"
                   chip="Gabrio"
@@ -661,7 +661,7 @@ const Notebook = () => {
                   link=""
                   chip="pending"
                 />
-<HieGene
+                <HieGene
                   title="Rangkuman Sosiologi"
                   link="https://docs.google.com/document/d/1j29NoLPg4-cdn61GSQ_s6V0UUey0g85YBou4RZvgT7E/edit?usp=sharing"
                   chip="Gabrio"
