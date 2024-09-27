@@ -50,6 +50,7 @@ We wish to integrate this project with canitutor in the future. Providing study 
 - Login(WIP, The schedule in CC is hectic)
 - Admin panel: Authorize and check the quality of the notes(WIP)
 - Page for students to upload their own notes (WIP)
+- UPDATE: I maybe should change to `Django` and use `webpack` instead of `vite`. If I use vite I need to go do some `CORS` wizardry, which I dislike.
 
 ## Color Reference
 
