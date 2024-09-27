@@ -115,8 +115,7 @@ a {
   color: var(--dark-color);
   background-color: var(--second-color);
   font-weight: var(--font-semi-bold);
-  /* padding: 1.25rem 1.5rem; */
-  padding: 0.5rem 1rem;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
